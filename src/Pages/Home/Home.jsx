@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../../Assets/Images/Logicpoint-Logo.svg";
 import { NavLink } from "react-router-dom";
 import "../../index.css";
+import AboutUs from "./AboutUs";
 
 const Home = () => {
   const [clicked, setClicked] = useState(false);
@@ -17,7 +18,7 @@ const Home = () => {
           <div className="pr-[7rem]">
             <img src={logo} alt="logo" />
           </div>
-  
+
           <div className="flex items-center justify-between w-full">
             <NavLink
               className="hidden md:flex transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
@@ -85,6 +86,7 @@ const Home = () => {
           </div>
         </main>
       </header>
+      <AboutUs />
     </React.Fragment>
   );
 };
