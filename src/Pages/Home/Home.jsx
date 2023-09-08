@@ -19,21 +19,21 @@ const Home = () => {
         </nav>
 
         <main className="mt-[15%]">
-          <div className="border-b-2 border-[#E87B37] w-[18%]"></div>
-          <div>
-            <h1 className="text-white font-[serif-regular] text-6xl pt-[0.5rem]">
+          <div className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"></div>
+          <div className="text-white">
+            <h1 className=" font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-[0.5rem]">
               An Innovative Agency For
             </h1>
-            <h1 className="text-white font-[serif-regular] text-6xl pt-[0.5rem]">
+            <h1 className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-[0.5rem]">
               Forward-thinking Brands.
             </h1>
-            <p className="text-white font-[poppins-regular] pt-[0.5rem] text-[0.6rem] md:text-sm">
+            <p className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] md:text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
             </p>
-            <p className="text-white font-[poppins-regular] text-[0.6rem] md:text-sm">
+            <p className="font-[poppins-regular] text-[0.6rem] md:text-sm">
               elit. Ut elit tellus, luctus nec ullamcorper mattis,
             </p>
-            <p className="text-white font-[poppins-regular] text-[0.6rem] md:text-sm">
+            <p className="font-[poppins-regular] text-[0.6rem] md:text-sm">
               pulvinar dapibus leo.
             </p>
 
