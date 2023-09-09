@@ -1,37 +1,35 @@
 import React from "react";
-import { useState } from "react"
+import { useState } from "react";
 import logo from "../../Assets/Images/Logicpoint-Logo.svg";
 import { NavLink } from "react-router-dom";
 import "../../index.css";
 
 const Home = () => {
-
   return (
     <React.Fragment>
       <header className="min-h-screen w-full bg px-[10%]">
         <nav className="flex items-center justify-between text-white text-sm font-[poppins-regular] pt-[0.5rem]">
           <img src={logo} alt="logo" />
           <NavLink
-            className= "transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             HOME
           </NavLink>
           <NavLink
-            className= "transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
-
           >
             ABOUT US
           </NavLink>
           <NavLink
-            className= "transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             SERVICES
           </NavLink>
           <NavLink
-            className= "transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             PARTNERS
