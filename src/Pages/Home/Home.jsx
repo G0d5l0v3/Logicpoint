@@ -16,37 +16,42 @@ const Home = () => {
         <nav className="flex items-center justify-between text-white text-sm font-[poppins-regular] pt-[0.5rem]">
           <img src={logo} alt="logo" />
           <NavLink
-            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="hidden md:flex transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             HOME
           </NavLink>
           <NavLink
-            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="hidden md:flex transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             ABOUT US
           </NavLink>
           <NavLink
-            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="hidden md:flex transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             SERVICES
           </NavLink>
           <NavLink
-            className="transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
+            className="hidden md:flex transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             to=""
           >
             PARTNERS
           </NavLink>
-          <button className="bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+
+          <button className="hidden md:flex bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             CONTACT US
           </button>
 
-          <div id="mobile">
+          <div className="md:hidden">
             <i
-              className={clicked ? "fas fa-times text-white cursor-[pointer]" : "fas fa-bars text-white cursor-[pointer]"}
-              onClick = {handleClick}
+              className={
+                clicked
+                  ? "fas fa-times text-white cursor-[pointer]"
+                  : "fas fa-bars text-white cursor-[pointer]"
+              }
+              onClick={handleClick}
             ></i>
           </div>
         </nav>
