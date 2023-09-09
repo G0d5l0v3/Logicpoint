@@ -1,13 +1,21 @@
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
+import { ConfigProvider } from "antd";
 import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home/>} />
-      </Routes>
-
+      <ConfigProvider
+        theme={{
+          token: {
+            colorPrimary: "#E87B37",
+          },
+        }}
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </ConfigProvider>
     </div>
   );
 }
