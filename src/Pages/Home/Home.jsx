@@ -9,11 +9,11 @@ const Home = () => {
       <header className="min-h-screen w-full bg px-[10%]">
         <nav className="flex items-center justify-between text-white text-sm font-[poppins-regular] pt-[0.5rem]">
           <img src={logo} alt="logo" />
-          <NavLink>HOME</NavLink>
-          <NavLink>ABOUT US</NavLink>
-          <NavLink>SERVICES</NavLink>
-          <NavLink>PARTNERS</NavLink>
-          <button className="bg-[#E87B37] px-[1rem] py-[0.5rem]">
+          <NavLink className=" hover:text-[#E87B37] focus:text-[#E87B37] text-white transition duration-500 ease-in-out">HOME</NavLink>
+          <NavLink className=" hover:text-[#E87B37] focus:text-[#E87B37] text-white transition duration-500 ease-in-out">ABOUT US</NavLink>
+          <NavLink className=" hover:text-[#E87B37] focus:text-[#E87B37] text-white transition duration-500 ease-in-out">SERVICES</NavLink>
+          <NavLink className=" hover:text-[#E87B37] focus:text-[#E87B37] text-white transition duration-500 ease-in-out">PARTNERS</NavLink>
+          <button className="bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             CONTACT US
           </button>
         </nav>
