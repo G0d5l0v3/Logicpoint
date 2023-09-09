@@ -18,7 +18,7 @@ const Home = () => {
           </button>
         </nav>
 
-        <main className="mt-[15%]">
+        <main className="mt-[10rem]">
           <div className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"></div>
           <div className="text-white">
             <h1 className=" font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-[0.5rem]">
