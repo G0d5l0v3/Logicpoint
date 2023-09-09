@@ -5,6 +5,11 @@ import { NavLink } from "react-router-dom";
 import "../../index.css";
 
 const Home = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
   return (
     <React.Fragment>
       <header className="min-h-screen w-full bg px-[10%]">
@@ -37,6 +42,13 @@ const Home = () => {
           <button className="bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             CONTACT US
           </button>
+
+          <div id="mobile">
+            <i
+              className={clicked ? "fas fa-times text-white cursor-[pointer]" : "fas fa-bars text-white cursor-[pointer]"}
+              onClick = {handleClick}
+            ></i>
+          </div>
         </nav>
 
         <main className="mt-[10rem]">
