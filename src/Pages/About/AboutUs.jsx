@@ -1,43 +1,42 @@
 import React from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import smallRectangle from "../../Assets/Images/smallRectangle.svg";
 import aboutUsImage from "../../Assets/Images/aboutUsImage.svg";
 import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const AboutUs = () => {
-  const controls = useAnimation();
-  const animation = {
-    hidden: { opacity: 0, y: -50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
-  };
+  const { ref, inView } = useInView({
+    threshold: 0.2
+  });
+  const animation = useAnimation();
 
   useEffect(() => {
-    // Function to trigger animation when the element is in view
-    const handleScroll = () => {
-      const element = document.querySelector("element-id");
-      if (element) {
-        const elementTop = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-
-        if (elementTop < windowHeight) {
-          controls.start("visible");
-        } else {
-          controls.start("hidden");
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [controls]);
+    if (inView) {
+      animation.start({
+        opacity:1,
+        y: -50,
+        transition: { ease: "easeInOut", duration: 1 },
+      });
+    }
+    if (!inView) {
+      animation.start({
+        opacity:0,
+        y: 0,
+        transition: { ease: "easeInOut", duration: 1 },
+      });
+    }
+    console.log("inView value = ", inView);
+  }, [inView]);
 
   return (
     <React.Fragment>
-      <div className="flex flex-col md:flex md:flex-row justify-center pl-[10%] min-h-screen w-full">
+      <div
+        ref={ref}
+        className="flex flex-col md:flex md:flex-row justify-center pl-[10%] min-h-screen w-full"
+      >
         {/* First Row (1.5 times bigger) */}
-        <div className="flex-1  pt-10">
+        <motion.div className="flex-1  pt-[5rem]" animate={animation}>
           <div>
             <img src={smallRectangle} alt="logo" className="pt-7" />
           </div>
@@ -55,7 +54,6 @@ const AboutUs = () => {
               businesses grow online.
             </p>
           </div>
-          
 
           <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black">
             Mission
@@ -82,7 +80,7 @@ const AboutUs = () => {
           <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
             improve our client’s productivity and business strength.
           </p>
-        </div>
+        </motion.div>
         {/* Second Row */}
         <div className="hidden md:flex md:justify-end md:items-center ">
           <img src={aboutUsImage} className="w-[70%]" />

@@ -88,7 +88,7 @@ const Home = () => {
             >
               PARTNERS
             </NavLink>
-            <button className="text-[0.4rem]  sm:text-[0.6rem] mt-[1rem] bg-[#E87B37] py-[0.3rem] px-[0.3rem] sm:px-[1rem] md:px-[1rem] md:text-[0.85rem] md:py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <button className="text-[0.35rem]  sm:text-[0.6rem] mt-[1rem] bg-[#E87B37] sm:py-[0.3rem] px-[0.3rem] sm:px-[1rem] md:px-[1rem] md:text-[0.85rem] md:py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               CONTACT US
             </button>
           </motion.div>
