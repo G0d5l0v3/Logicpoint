@@ -109,7 +109,7 @@ const Services = () => {
       <Element name="services">
         <div
           ref={ref}
-          className="flex flex-col bg-[#F5F5F5]  md:flex md:flex-row justify-center pl-[10%] min-h-screen w-full"
+          className="flex flex-col bg-[#F5F5F5]  md:flex md:flex-row justify-center px-[10%] min-h-screen w-full"
         >
           <motion.div className="flex-1  pt-[5rem]" animate ={ animationUp }>
             <motion.div animate={animationUp}>
@@ -124,7 +124,7 @@ const Services = () => {
             </motion.div>
 
             <div className="flex flex-col md:flex md:flex-row pt-[2rem]">
-              <motion.div animate = {animationReveal}>
+              <motion.div animate = {animationReveal} className="md:pr-[1rem]">
                 <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black">
                   IT Consulting
                 </h1>
@@ -139,7 +139,7 @@ const Services = () => {
                 </p>
               </motion.div>
 
-              <motion.div animate = {animationReveal}>
+              <motion.div animate = {animationReveal} className="pr-[1rem]">
                 <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
                   Development
                 </h1>
@@ -154,7 +154,7 @@ const Services = () => {
                 </p>
               </motion.div>
 
-              <motion.div animate={animationReveal}>
+              <motion.div animate={animationReveal} >
                 <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
                   Installation
                 </h1>
