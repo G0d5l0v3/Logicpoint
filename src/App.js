@@ -3,6 +3,7 @@ import { ConfigProvider } from "antd";
 import Home from "./Pages/Home/Home";
 import AboutUs from "./Pages/About/AboutUs";
 import LandingPage from "./Pages/LandingPage";
+import Services from "./Pages/Services/Services";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </ConfigProvider>
     </div>
