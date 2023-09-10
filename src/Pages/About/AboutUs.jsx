@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import smallRectangle from "../../Assets/Images/smallRectangle.svg";
 import aboutUsImage from "../../Assets/Images/aboutUsImage.svg";
 import { motion, useAnimation } from "framer-motion";
@@ -27,7 +27,7 @@ const AboutUs = () => {
       });
     }
     console.log("inView value = ", inView);
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <React.Fragment>
@@ -38,7 +38,7 @@ const AboutUs = () => {
         {/* First Row (1.5 times bigger) */}
         <motion.div className="flex-1  pt-[5rem]" animate={animation}>
           <div>
-            <img src={smallRectangle} alt="logo" className="pt-7" />
+            <img src={smallRectangle} alt="bar" className="pt-7" />
           </div>
           <div>
             <h1 className="font-[serif-regular] pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black">
@@ -83,10 +83,10 @@ const AboutUs = () => {
         </motion.div>
         {/* Second Row */}
         <div className="hidden md:flex md:justify-end md:items-center ">
-          <img src={aboutUsImage} className="w-[70%]" />
+          <img src={aboutUsImage} alt="aboutUs" className="w-[70%]" />
         </div>
         <div className="flex items-center justify-center md:hidden ">
-          <img src={aboutUsImage} className="w-[auto]" />
+          <img src={aboutUsImage} alt="aboutUs" className="w-[auto]" />
         </div>
       </div>
     </React.Fragment>
