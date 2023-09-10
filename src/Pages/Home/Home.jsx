@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import logo from "../../Assets/Images/Logicpoint-Logo.svg";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import "../../index.css";
 
@@ -23,31 +23,39 @@ const Home = () => {
           </div>
 
           <div className="hidden md:flex md:flex-row md:items-center md:justify-between md:w-full">
-            <NavLink
-              className="text-[0.6rem] md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            <Link
+              to="home"
+              smooth={true}
+              duration={1500}
+              className="text-[0.6rem] md:text-[0.85rem] cursor-pointer transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               HOME
-            </NavLink>
-            <NavLink
-              className="text-[0.6rem] md:text-[0.85rem] md:text-center transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="about"
+              smooth={true}
+              duration={1500}
+              className="text-[0.6rem] md:text-[0.85rem] cursor-pointer md:text-center transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               ABOUT US
-            </NavLink>
-            <NavLink
-              className=" text-[0.6rem] md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="services"
+              smooth={true}
+              duration={1500}
+              className=" text-[0.6rem] md:text-[0.85rem] cursor-pointer transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               SERVICES
-            </NavLink>
-            <NavLink
-              className="text-[0.4rem]  sm:text-[0.6rem] md:text-[0.85rem]  transition duration-300 ease-in-out hover:border-b-2 hover:border-[auto] md:hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="partners"
+              smooth={true}
+              duration={1500}
+              className="text-[0.4rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem]  transition duration-300 ease-in-out hover:border-b-2 hover:border-[auto] md:hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               PARTNERS
-            </NavLink>
-            <button className="text-[0.5rem]  sm:text-[0.6rem] md:text-[0.85rem] bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            </Link>
+            <button className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] bg-[#E87B37] px-[1rem] py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               CONTACT US
             </button>
           </div>
@@ -64,30 +72,38 @@ const Home = () => {
             }
             transition={{ ease: "easeInOut", duration: 0.3 }}
           >
-            <NavLink
-              className="text-[0.5rem]  sm:text-[0.6rem] md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            <Link
+              to="home"
+              smooth={true}
+              duration={1500}
+              className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               HOME
-            </NavLink>
-            <NavLink
-              className="text-[0.5rem]  sm:text-[0.6rem] md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="about"
+              smooth={true}
+              duration={1500}
+              className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               ABOUT US
-            </NavLink>
-            <NavLink
-              className="text-[0.5rem]  sm:text-[0.6rem] md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="services"
+              smooth={true}
+              duration={1500}
+              className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               SERVICES
-            </NavLink>
-            <NavLink
-              className="text-[0.5rem]  sm:text-[0.6rem] md:text-[0.85rem]  transition duration-300 ease-in-out hover:border-b-2 hover:border-[auto] md:hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
-              to=""
+            </Link>
+            <Link
+              to="partners"
+              smooth={true}
+              duration={1500}
+              className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem]  transition duration-300 ease-in-out hover:border-b-2 hover:border-[auto] md:hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] focus:text-[#E87B37] focus:border-b-2 focus:border-[#E87B37]"
             >
               PARTNERS
-            </NavLink>
+            </Link>
             <button className="text-[0.35rem]  sm:text-[0.6rem] mt-[1rem] bg-[#E87B37] sm:py-[0.3rem] px-[0.3rem] sm:px-[1rem] md:px-[1rem] md:text-[0.85rem] md:py-[0.5rem] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               CONTACT US
             </button>
@@ -108,7 +124,7 @@ const Home = () => {
         <main className="mt-[10rem]">
           <motion.div
             className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"
-            initial={{ opacity: 0}}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
           ></motion.div>
