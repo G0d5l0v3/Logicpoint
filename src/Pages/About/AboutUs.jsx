@@ -17,7 +17,7 @@ const AboutUs = () => {
       animation.start({
         opacity: 1,
         y: 0,
-        transition: { ease: "easeInOut", duration: 2, delay: 0.5 }
+        transition: { ease: "easeInOut", duration: 1, delay: 0.5 }
       });
     }
     if (!inView) {
