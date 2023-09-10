@@ -124,7 +124,7 @@ const Services = () => {
             </motion.div>
 
             <div className="flex flex-col md:flex md:flex-row pt-[2rem]">
-              <motion.div animate = {animationRight} >
+              <motion.div animate = {animationReveal}>
                 <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black">
                   IT Consulting
                 </h1>
@@ -154,7 +154,7 @@ const Services = () => {
                 </p>
               </motion.div>
 
-              <motion.div animate={animationLeft}>
+              <motion.div animate={animationReveal}>
                 <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
                   Installation
                 </h1>
