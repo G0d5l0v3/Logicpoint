@@ -26,7 +26,7 @@ const Services = () => {
     if (!inView) {
       animationDown.start({
         opacity: 0,
-        y: 50,
+        y: -50,
         transition: { ease: "easeInOut", duration: 1, delay: 1 },
       });
     }
@@ -43,7 +43,7 @@ const Services = () => {
     if (!inView) {
       animationUp.start({
         opacity: 0,
-        y: -50,
+        y: 50,
         transition: { ease: "easeInOut", duration: 1, delay: 0.5 },
       });
     }
