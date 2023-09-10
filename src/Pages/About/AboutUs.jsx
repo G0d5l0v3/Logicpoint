@@ -17,14 +17,14 @@ const AboutUs = () => {
       animation.start({
         opacity: 1,
         y: -50,
-        transition: { ease: "easeInOut", duration: 2 },
+        transition: { ease: "easeInOut", duration: 2, delay: 1 },
       });
     }
     if (!inView) {
       animation.start({
         opacity: 0,
         y: 0,
-        transition: { ease: "easeInOut", duration: 2 },
+        transition: { ease: "easeInOut", duration: 1, delay: 1 },
       });
     }
     console.log("inView value = ", inView);
