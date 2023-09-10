@@ -54,6 +54,7 @@ const Services = () => {
       animationLeft.start({
         opacity: 1,
         x: 0,
+        exit: { x: 0 },
         transition: { ease: "easeInOut", duration: 1, delay: 0.5 },
       });
     }
@@ -61,6 +62,7 @@ const Services = () => {
       animationLeft.start({
         opacity: 0,
         x: 50,
+        exit: { x: 50 },
         transition: { ease: "easeInOut", duration: 1, delay: 0.5 },
       });
     }
@@ -86,6 +88,7 @@ const Services = () => {
       animationRight.start({
         opacity: 1,
         x: 0,
+        exit: { x: 0 },
         transition: { ease: "easeInOut", duration: 1, delay: 0.5 },
       });
     }
@@ -93,6 +96,7 @@ const Services = () => {
       animationRight.start({
         opacity: 0,
         x: -50,
+        exit: { x: -50 },
         transition: { ease: "easeInOut", duration: 1, delay: 0.5 },
       });
     }
