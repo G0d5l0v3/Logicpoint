@@ -130,7 +130,7 @@ const Home = () => {
               Forward-thinking Brands.
             </motion.h1>
             <motion.p
-              className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] md:text-sm"
+              className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem]"
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -138,7 +138,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
             </motion.p>
             <motion.p
-              className="font-[poppins-regular] text-[0.6rem] md:text-sm"
+              className="font-[poppins-regular] text-[0.6rem] md:text-[1rem]"
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -146,7 +146,7 @@ const Home = () => {
               elit. Ut elit tellus, luctus nec ullamcorper mattis,
             </motion.p>
             <motion.p
-              className="font-[poppins-regular] text-[0.6rem] md:text-sm"
+              className="font-[poppins-regular] text-[0.6rem] md:text-[1rem]"
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
