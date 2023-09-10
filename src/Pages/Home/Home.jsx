@@ -2,13 +2,14 @@ import React from "react";
 import { useState } from "react";
 import logo from "../../Assets/Images/Logicpoint-Logo.svg";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 import "../../index.css";
 
 const Home = () => {
-  // const [isAnimating, setIsAnimating] = useState(false);
-  // const handleButtonClick = () => {
-  //   setIsAnimating(!isAnimating);
-  // };
+  const [isAnimating, setIsAnimating] = useState(false);
+  const handleAnimation = () => {
+    setIsAnimating(!isAnimating);
+  };
 
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
