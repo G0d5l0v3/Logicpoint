@@ -104,8 +104,8 @@ const Services = () => {
 
   return (
     <React.Fragment>
-      <Element name="services">
-        <div className="w-full min-h-screen bg-[#F5F5F5] ">
+      <div className="w-full min-h-screen bg-[#F5F5F5] ">
+        <Element name="services">
           <div
             ref={ref}
             className="flex flex-col md:flex md:flex-row justify-center px-[10%]"
@@ -170,13 +170,15 @@ const Services = () => {
               </div>
             </motion.div>
           </div>
-          <motion.div className="mt-[5rem]" animate = {animationRight}>
+        </Element>
+        <Element name="partners">
+          <motion.div className="mt-[5rem]" animate={animationRight}>
             <h1 className="font-[serif-regular] text-center pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black">
               Clients We Work With
             </h1>
           </motion.div>
-        </div>
-      </Element>
+        </Element>
+      </div>
     </React.Fragment>
   );
 };
