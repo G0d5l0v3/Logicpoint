@@ -37,7 +37,7 @@ const AboutUs = () => {
           className="flex flex-col md:flex md:flex-row justify-center pl-[10%] min-h-screen w-full"
         >
           {/* First Row (1.5 times bigger) */}
-          <motion.div className="flex-1  pt-[5rem]" animate={animation}>
+          <motion.div className="flex-1 pt-[5rem]" animate={animation}>
             <div>
               <img src={smallRectangle} alt="bar" className="pt-7" />
             </div>
@@ -83,12 +83,10 @@ const AboutUs = () => {
             </p>
           </motion.div>
           {/* Second Row */}
-          <div className="hidden md:flex md:justify-end md:items-center ">
+          <div className="hidden lg:flex lg:justify-end lg:items-center ">
             <img src={aboutUsImage} alt="aboutUs" className="w-[70%]" />
           </div>
-          <div className="flex items-center justify-center md:hidden ">
-            <img src={aboutUsImage} alt="aboutUs" className="w-[auto]" />
-          </div>
+
         </div>
       </Element>
     </React.Fragment>

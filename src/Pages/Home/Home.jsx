@@ -23,7 +23,7 @@ const Home = () => {
               <img src={logo} alt="logo" className="w-full" />
             </div>
 
-            <div className="hidden md:flex md:flex-row md:items-center md:justify-between md:w-full">
+            <div className="hidden lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-full">
               <Link
                 to="home"
                 smooth={true}
@@ -64,7 +64,7 @@ const Home = () => {
             <motion.div
               className={
                 clicked
-                  ? "flex flex-col fixed right-0 top-[5rem] p-[3rem] bg-[#000] w-[30%] transition duration-300 ease-in-out justify-start items-start md:hidden"
+                  ? "flex flex-col fixed right-0 top-[5rem] p-[3rem] bg-[#000] w-[60%] transition duration-300 ease-in-out justify-start items-start lg:hidden"
                   : "hidden"
               }
               initial={false}
@@ -114,7 +114,7 @@ const Home = () => {
               </button>
             </motion.div>
 
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <i
                 className={
                   clicked
