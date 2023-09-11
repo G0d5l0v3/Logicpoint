@@ -19,7 +19,7 @@ const Home = () => {
       <Element name="home">
         <header className="min-h-screen w-full bg px-[10%]">
           <nav className="flex items-center top-0 justify-between w-full text-white text-sm font-[poppins-regular] pt-[0.5rem]">
-            <div className="pr-[7rem]">
+            <div className="pr-[10%]">
               <img src={logo} alt="logo" className="w-full" />
             </div>
 
