@@ -108,7 +108,7 @@ const Services = () => {
         <Element name="services">
           <div
             ref={ref}
-            className="flex flex-col md:flex md:flex-row justify-center 2xl:items-center 2xl:h-[60svh] px-[10%]"
+            className="flex flex-col md:flex md:flex-row justify-center 2xl:items-center 2xl:h-[50svh] px-[10%]"
           >
             <motion.div className="flex-1 pt-[5rem]" animate={animationUp}>
               <motion.div animate={animationUp}>
