@@ -139,7 +139,7 @@ const Services = () => {
                 </motion.div>
 
                 <motion.div animate={animationReveal} className="pr-[1rem]">
-                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
+                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  2xl:text-5xl pt-6 font-bold text-black">
                     Development
                   </h1>
                   <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
@@ -172,7 +172,7 @@ const Services = () => {
           </div>
         </Element>
         <Element name="partners">
-          <motion.div className="mt-[5rem]" animate={animationRight}>
+          <motion.div className="mt-[7%]" animate={animationRight}>
             <h1 className="font-[serif-regular] text-center pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black">
               Clients We Work With
             </h1>
