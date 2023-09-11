@@ -152,7 +152,7 @@ const Home = () => {
               </motion.h1>
               <motion.p
                 className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem] 2xl:text-[1.4rem] "
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -110 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
               >
@@ -160,7 +160,7 @@ const Home = () => {
               </motion.p>
               <motion.p
                 className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.4rem]"
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -110 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
               >
@@ -168,14 +168,14 @@ const Home = () => {
               </motion.p>
               <motion.p
                 className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.4rem]"
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -110 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
               >
                 pulvinar dapibus leo.
               </motion.p>
               <motion.div
-                initial={{ opacity: 0, x: -120 }}
+                initial={{ opacity: 0, x: -130 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
               >
