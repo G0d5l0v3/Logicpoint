@@ -83,8 +83,8 @@ const AboutUs = () => {
             </p>
           </motion.div>
           {/* Second Row */}
-          <div className="hidden lg:flex lg:pl-[2rem] lg:items-center  ">
-            <img src={aboutUsImage} alt="aboutUs" className="w-[100%] h-[80%] " />
+          <div className="hidden lg:flex lg:pl-[2rem] lg:items-center lg:h-[100svh] 2xl:items-center 2xl:h-[100svh] ">
+            <img src={aboutUsImage} alt="aboutUs" className="w-[100%] h-[80%] 2xl:w-[200%]" />
           </div>
 
         </div>
