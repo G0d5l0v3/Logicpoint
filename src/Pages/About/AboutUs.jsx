@@ -34,7 +34,7 @@ const AboutUs = () => {
       <Element name="about">
         <div
           ref={ref}
-          className="flex flex-col md:flex md:flex-row justify-center pl-[10%] min-h-screen w-full"
+          className="flex flex-col md:flex md:flex-row justify-center pl-[10%] pb-[10rem] sm:min-h-screen h-[auto] w-full"
         >
           {/* First Row (1.5 times bigger) */}
           <motion.div className="flex-1 pt-[5rem]" animate={animation}>

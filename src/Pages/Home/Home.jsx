@@ -64,7 +64,7 @@ const Home = () => {
             <motion.div
               className={
                 clicked
-                  ? "flex flex-col fixed right-0 top-[5rem] p-[3rem] bg-[#000] w-[60%] transition duration-300 ease-in-out justify-start items-start lg:hidden"
+                  ? "flex flex-col fixed right-0 top-[5rem] p-[3rem] bg-[#000] w-[50%] transition duration-300 ease-in-out sm:w-[40%] md:w-[30%] justify-start items-start lg:hidden"
                   : "hidden"
               }
               initial={false}
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </nav>
 
-          <main className="mt-[10rem]">
+          <main className="mt-[13rem] sm:mt-[10rem]">
             <motion.div
               className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"
               initial={{ opacity: 0 }}
