@@ -110,7 +110,7 @@ const Services = () => {
             ref={ref}
             className="flex flex-col md:flex md:flex-row justify-center px-[10%]"
           >
-            <motion.div className="flex-1  pt-[5rem]" animate={animationUp}>
+            <motion.div className="flex-1 pt-[5rem] 2xl:items-center 2xl:h-[100svh] " animate={animationUp}>
               <motion.div animate={animationUp}>
                 <div>
                   <img src={smallRectangle} alt="bar" className="pt-7" />

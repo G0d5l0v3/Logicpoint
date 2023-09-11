@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </nav>
 
-          <main className="mt-[13rem] sm:mt-[10rem] xl:mt-[15%] 2xl:mt-[18%]">
+          <main className="mt-[13rem] sm:mt-[10rem] xl:mt-[15%] 2xl:items-center 2xl:h-[100svh]">
             <motion.div
               className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"
               initial={{ opacity: 0 }}
