@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 import { Element } from "react-scroll";
 import smallRectangle from "../../Assets/Images/smallRectangle.svg";
+import sanefLogo from "../../Assets/Images/sanef-logo.png";
+import zedvanceLogo from "../../Assets/Images/zedvance-logo.png";
+import parallexLogo from "../../Assets/Images/parallex-logo.png";
+import globusLogo from "../../Assets/Images/globus-logo.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -8,6 +12,8 @@ const Services = () => {
   const { ref, inView } = useInView({
     threshold: 0.2,
   });
+
+  const partners = [sanefLogo, zedvanceLogo, parallexLogo, globusLogo];
 
   const animationDown = useAnimation();
   const animationLeft = useAnimation();
@@ -171,12 +177,31 @@ const Services = () => {
             </motion.div>
           </div>
         </Element>
+
         <Element name="partners">
-          <motion.div className="mt-[7%] 2xl:mt-[0]" animate={animationRight}>
-            <h1 className="font-[serif-regular] text-center pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-bold text-black">
-              Clients We Work With
-            </h1>
-          </motion.div>
+          <div
+            ref={ref}
+            className="flex flex-col md:flex md:flex-col justify-center 2xl:items-center 2xl:h-[50svh] px-[10%]"
+          >
+            <motion.div className="mt-[7%] 2xl:mt-[0]" animate={animationRight}>
+              <h1 className="font-[serif-regular] text-center pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-bold text-black">
+                Clients We Work With
+              </h1>
+            </motion.div>
+            <motion.div className="mt-[7%] 2xl:mt-[0]" animate={animationDown}>
+              <div className="flex items-center justify-center gap-7 ">
+                {partners.map((partner, index) => (
+                  <div key={index}>
+                    <img
+                      src={partner}
+                      alt="partnersLogo"
+                      className="w-40 h-30"
+                    />
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
         </Element>
       </div>
     </React.Fragment>
