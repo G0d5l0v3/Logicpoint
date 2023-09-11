@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </nav>
 
-          <main className="mt-[13rem] sm:mt-[10rem]">
+          <main className="mt-[13rem] sm:mt-[10rem] xl:mt-[15%] 2xl:mt-[18%]">
             <motion.div
               className="border-b-2 border-[#E87B37] w-[6rem] sm:w-[7rem] md:w-[10rem] lg:w-[12rem]"
               initial={{ opacity: 0 }}
@@ -135,7 +135,7 @@ const Home = () => {
             ></motion.div>
             <div className="text-white">
               <motion.h1
-                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-[0.5rem]"
+                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl pt-[0.5rem]"
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -143,7 +143,7 @@ const Home = () => {
                 An Innovative Agency For
               </motion.h1>
               <motion.h1
-                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-[0.5rem]"
+                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl pt-[0.5rem]"
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -151,7 +151,7 @@ const Home = () => {
                 Forward-thinking Brands.
               </motion.h1>
               <motion.p
-                className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem]"
+                className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem] 2xl:text-[1.3rem] "
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -159,7 +159,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
               </motion.p>
               <motion.p
-                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem]"
+                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.3rem]"
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -167,7 +167,7 @@ const Home = () => {
                 elit. Ut elit tellus, luctus nec ullamcorper mattis,
               </motion.p>
               <motion.p
-                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem]"
+                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.3rem]"
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
