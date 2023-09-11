@@ -34,10 +34,10 @@ const AboutUs = () => {
       <Element name="about">
         <div
           ref={ref}
-          className="flex flex-col pb-[7rem] md:pb-0 md:flex md:flex-row justify-center pl-[10%] sm:min-h-screen 2xl:items-center 2xl:h-[100svh] h-[auto] w-full"
+          className="flex flex-col pb-[7rem] md:pb-0 md:flex md:flex-row justify-center pl-[10%] sm:min-h-screen md:items-center md:h-[100svh] 2xl:items-center 2xl:h-[100svh] h-[auto] w-full"
         >
           {/* First Row (1.5 times bigger) */}
-          <motion.div className="flex-1 pt-[5rem]" animate={animation}>
+          <motion.div className="flex-1 pt-[5rem] sm:pt-0" animate={animation}>
             <div>
               <img src={smallRectangle} alt="bar" className="pt-7" />
             </div>

@@ -108,15 +108,15 @@ const Services = () => {
         <Element name="services">
           <div
             ref={ref}
-            className="flex flex-col md:flex md:flex-row justify-center px-[10%]"
+            className="flex flex-col md:flex md:flex-row justify-center 2xl:items-center 2xl:h-[100svh] px-[10%]"
           >
-            <motion.div className="flex-1 pt-[5rem] 2xl:items-center 2xl:h-[100svh] " animate={animationUp}>
+            <motion.div className="flex-1 pt-[5rem]" animate={animationUp}>
               <motion.div animate={animationUp}>
                 <div>
                   <img src={smallRectangle} alt="bar" className="pt-7" />
                 </div>
                 <div>
-                  <h1 className="font-[serif-regular] pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black">
+                  <h1 className="font-[serif-regular] pt-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-bold text-black">
                     Hire Us For
                   </h1>
                 </div>
@@ -124,16 +124,16 @@ const Services = () => {
 
               <div className="flex flex-col md:flex md:flex-row pt-[2rem]">
                 <motion.div animate={animationReveal} className="md:pr-[1rem]">
-                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black">
+                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl 2xl:text-5xl pt-6 font-bold text-black">
                     IT Consulting
                   </h1>
-                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     Our mission is to empower our clients to use the internet
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     to its full potential by providing affordable, effective,
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     custom design and marketing solutions.
                   </p>
                 </motion.div>
@@ -142,28 +142,28 @@ const Services = () => {
                   <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
                     Development
                   </h1>
-                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     Our vision is to become a global leader in providing the
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     best and unique web design and marketing services to
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     improve our client’s productivity and business strength.
                   </p>
                 </motion.div>
 
                 <motion.div animate={animationReveal}>
-                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black">
+                  <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl 2xl:text-5xl pt-6 font-bold text-black">
                     Installation
                   </h1>
-                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     Our vision is to become a global leader in providing the
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] 2xl:text-[1.4rem] md:text-[1rem] text-black">
                     best and unique web design and marketing services to
                   </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black">
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     improve our client’s productivity and business strength.
                   </p>
                 </motion.div>
