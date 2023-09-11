@@ -135,7 +135,7 @@ const Home = () => {
             ></motion.div>
             <div className="text-white">
               <motion.h1
-                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl pt-[0.5rem]"
+                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl pt-[0.5rem]"
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -143,7 +143,7 @@ const Home = () => {
                 An Innovative Agency For
               </motion.h1>
               <motion.h1
-                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl pt-[0.5rem]"
+                className="font-[serif-regular] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl pt-[0.5rem]"
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -151,7 +151,7 @@ const Home = () => {
                 Forward-thinking Brands.
               </motion.h1>
               <motion.p
-                className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem] 2xl:text-[1.3rem] "
+                className="font-[poppins-regular] pt-[0.5rem] text-[0.6rem] sm:text-[0.8rem] md:text-[1rem] 2xl:text-[1.4rem] "
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -159,7 +159,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
               </motion.p>
               <motion.p
-                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.3rem]"
+                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.4rem]"
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -167,7 +167,7 @@ const Home = () => {
                 elit. Ut elit tellus, luctus nec ullamcorper mattis,
               </motion.p>
               <motion.p
-                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.3rem]"
+                className="font-[poppins-regular] text-[0.6rem] md:text-[1rem] 2xl:text-[1.4rem]"
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
@@ -179,7 +179,7 @@ const Home = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
               >
-                <button className="px-[1rem] py-[0.5rem] mt-[1rem] text-[#E87B37] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-[poppins-regular] text-[0.7rem] sm:text-[0.6rem] md:text-sm lg:text-lg border-[#E87B37] text-align text-center border-2 w-[7rem] sm:w-[8rem] md:w-[10rem] 2xl:text-[1.3rem]">
+                <button className="px-[1rem] py-[0.5rem] mt-[1rem] text-[#E87B37] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-[poppins-regular] text-[0.7rem] sm:text-[0.6rem] md:text-sm lg:text-lg border-[#E87B37] text-align text-center border-2 w-[7rem] sm:w-[8rem] md:w-[10rem] 2xl:text-[1.4rem]">
                   Learn More
                 </button>
               </motion.div>
