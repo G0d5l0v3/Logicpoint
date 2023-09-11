@@ -56,7 +56,7 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black 2xl:text-9xl">
+            <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl pt-6 font-bold text-black 2xl:text-6xl">
               Mission
             </h1>
             <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black 2xl:text-[1.4rem]">
@@ -69,7 +69,7 @@ const AboutUs = () => {
               custom design and marketing solutions.
             </p>
 
-            <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black 2xl:text-9xl">
+            <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  pt-6 font-bold text-black 2xl:text-6xl">
               Goals
             </h1>
             <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] text-black 2xl:text-[1.4rem]">
