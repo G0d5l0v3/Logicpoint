@@ -108,7 +108,7 @@ const Services = () => {
         <Element name="services">
           <div
             ref={ref}
-            className="flex flex-col md:flex md:flex-row justify-center 2xl:items-center 2xl:h-[70svh] px-[10%]"
+            className="flex flex-col md:flex md:flex-row justify-center 2xl:items-center 2xl:h-[60svh] px-[10%]"
           >
             <motion.div className="flex-1 pt-[5rem]" animate={animationUp}>
               <motion.div animate={animationUp}>
@@ -122,34 +122,34 @@ const Services = () => {
                 </div>
               </motion.div>
 
-              <div className="flex flex-col md:flex md:flex-row pt-[2rem]">
-                <motion.div animate={animationReveal} className="md:pr-[1rem]">
+              <div className="flex flex-col sm:flex sm:flex-row sm:justify-between md:flex md:flex-row pt-[2rem]">
+                <motion.div animate={animationReveal} className=" ">
                   <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl 2xl:text-5xl pt-6 font-bold text-black">
                     IT Consulting
                   </h1>
                   <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    Our mission is to empower our clients to use the internet
+                    Our web design team has ample
                   </p>
                   <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    to its full potential by providing affordable, effective,
+                    years of experience in the core areas of
                   </p>
                   <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
                     custom design and marketing solutions.
                   </p>
                 </motion.div>
 
-                <motion.div animate={animationReveal} className="pr-[1rem]">
+                <motion.div animate={animationReveal} className="">
                   <h1 className="font-[serif-regular] text-sm sm:text-lg md:text-xl lg:text-2xl  2xl:text-5xl pt-6 font-bold text-black">
                     Development
                   </h1>
                   <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    Our vision is to become a global leader in providing the
+                    Our web design team has ample
                   </p>
                   <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    best and unique web design and marketing services to
+                    years of experience in the core areas of
                   </p>
                   <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    improve our client’s productivity and business strength.
+                    custom design and marketing solutions.
                   </p>
                 </motion.div>
 
@@ -158,13 +158,13 @@ const Services = () => {
                     Installation
                   </h1>
                   <p className="font-[poppins-regular] pt-3 text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    Our vision is to become a global leader in providing the
-                  </p>
-                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] 2xl:text-[1.4rem] md:text-[1rem] text-black">
-                    best and unique web design and marketing services to
+                    Our web design team has ample
                   </p>
                   <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
-                    improve our client’s productivity and business strength.
+                    years of experience in the core areas of
+                  </p>
+                  <p className="font-[poppins-regular] text-[0.6rem] sm:text-[0.7rem] md:text-[1rem] 2xl:text-[1.4rem] text-black">
+                    custom design and marketing solutions.
                   </p>
                 </motion.div>
               </div>
