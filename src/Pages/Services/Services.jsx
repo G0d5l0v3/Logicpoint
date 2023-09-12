@@ -6,6 +6,7 @@ import zedvanceLogo from "../../Assets/Images/zedvance-logo.png";
 import parallexLogo from "../../Assets/Images/parallex-logo.png";
 import globusLogo from "../../Assets/Images/globus-logo.png";
 import meristemLogo from "../../Assets/Images/meristem-logo.png";
+import palLogo from "../../Assets/Images/pal-logo.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -14,7 +15,7 @@ const Services = () => {
     threshold: 0.2,
   });
 
-  const partners = [sanefLogo, zedvanceLogo, parallexLogo, globusLogo, meristemLogo];
+  const partners = [sanefLogo, zedvanceLogo, parallexLogo, globusLogo, meristemLogo, palLogo];
 
   const animationDown = useAnimation();
   const animationLeft = useAnimation();
@@ -189,7 +190,7 @@ const Services = () => {
                 Clients We Work With
               </h1>
             </motion.div>
-            <motion.div className="mt-[7%] 2xl:mt-[0]" animate={animationDown}>
+            <motion.div className="mt-[7%] 2xl:mt-[7%]" animate={animationDown}>
               <div className="flex flex-wrap justify-center gap-10 items-center">
                 {partners.map((partner, index) => (
                   <div key={index}>
