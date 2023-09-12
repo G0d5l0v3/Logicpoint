@@ -191,7 +191,7 @@ const Services = () => {
               </h1>
             </motion.div>
             <motion.div className="mt-[7%] 2xl:mt-[7%]" animate={animationDown}>
-              <div className="flex flex-wrap justify-center gap-10 2xl:gap-14 items-center">
+              <div className="flex flex-wrap justify-center gap-14 lg:gap-x-28 2xl:gap-24 items-center">
                 {partners.map((partner, index) => (
                   <div key={index}>
                     <img
