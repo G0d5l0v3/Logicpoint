@@ -19,11 +19,10 @@ const Home = () => {
       <Element name="home">
         <header className="min-h-screen w-full bg px-[10%]">
           <nav className="flex items-center top-0 justify-between w-full text-white text-sm font-[poppins-regular] pt-[0.5rem]">
-            <div className="pr-[10%]">
-              <img src={logo} alt="logo" className="w-full" />
-            </div>
-
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-full">
+              <div>
+                <img src={logo} alt="logo" className="w-full" />
+              </div>
               <Link
                 to="home"
                 smooth={true}
@@ -77,7 +76,7 @@ const Home = () => {
                 to="home"
                 smooth={true}
                 duration={1500}
-                onClick= {handleClick}
+                onClick={handleClick}
                 className="text-[0.5rem] text-[#E87B37] sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37]"
               >
                 HOME
@@ -86,7 +85,7 @@ const Home = () => {
                 to="about"
                 smooth={true}
                 duration={1500}
-                onClick= {handleClick}
+                onClick={handleClick}
                 className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem] transition duration-300 ease-in-out hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37] "
               >
                 ABOUT US
@@ -104,7 +103,7 @@ const Home = () => {
                 to="partners"
                 smooth={true}
                 duration={1500}
-                onClick= {handleClick}
+                onClick={handleClick}
                 className="text-[0.5rem]  sm:text-[0.6rem] cursor-pointer md:text-[0.85rem]  transition duration-300 ease-in-out hover:border-b-2 hover:border-[auto] md:hover:border-b-2 hover:border-[#E87B37] hover:text-[#E87B37]"
               >
                 PARTNERS
