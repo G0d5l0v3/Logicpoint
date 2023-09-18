@@ -1,6 +1,6 @@
 import React from "react";
 import { SmileOutlined } from "@ant-design/icons";
-import { Button, Result } from "antd";
+import {  Result } from "antd";
 const NotFound = () => (
   <Result
     icon={<SmileOutlined />}

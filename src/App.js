@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { ConfigProvider } from "antd";
 //import Home from "./Pages/Home/Home";
 //import AboutUs from "./Pages/About/AboutUs";
-import LandingPage from "./Pages/LandingPage";
+// import LandingPage from "./Pages/LandingPage";
 //import Services from "./Pages/Services/Services";
 import NotFound from "./Pages/NotFound/NotFound";
 
