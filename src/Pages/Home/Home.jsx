@@ -1,8 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { motion } from "framer-motion"
+//import { motion } from "framer-motion"
 import Navbar from "./Navbar";
 
 import { Link } from "react-scroll";
@@ -10,13 +10,13 @@ import { Link } from "react-scroll";
 import "../../index.css";
 
 const Home = () => {
-  const [isAnimating, setIsAnimating] = useState(false);
-  const [clicked, setClicked] = useState(false);
+ // const [isAnimating, setIsAnimating] = useState(false);
+ // const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked(!clicked);
-    setIsAnimating(!isAnimating);
-  };
+//  const handleClick = () => {
+ //   setClicked(!clicked);
+ //   setIsAnimating(!isAnimating);
+ // }; 
 
   useEffect(() => {
     AOS.init({ duration: 3000 });
