@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import AOS from "aos";
+//import AOS from "aos";
 import "aos/dist/aos.css";
 
 const AboutUs = () => {
