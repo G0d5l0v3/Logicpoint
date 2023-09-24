@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 import "../../index.css";
 
 const Home = () => {
-  const [isAnimatings, setIsAnimatings] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
