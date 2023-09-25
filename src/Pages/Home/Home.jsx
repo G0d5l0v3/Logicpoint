@@ -10,13 +10,13 @@ import { Link } from "react-scroll";
 import "../../index.css";
 
 const Home = () => {
- // const [isAnimating, setIsAnimating] = useState(false);
- // const [clicked, setClicked] = useState(false);
+  // const [isAnimating, setIsAnimating] = useState(false);
+  // const [clicked, setClicked] = useState(false);
 
-//  const handleClick = () => {
- //   setClicked(!clicked);
- //   setIsAnimating(!isAnimating);
- // }; 
+  //  const handleClick = () => {
+  //   setClicked(!clicked);
+  //   setIsAnimating(!isAnimating);
+  // };
 
   useEffect(() => {
     AOS.init({ duration: 3000 });
@@ -24,56 +24,58 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <div className="h-screen bg font-[poppins-regular] w-full text-white max-w-[1400px] px-[10%]">
-        <Navbar />
-        <section className="flex items-center h-screen">
-          <div>
-            <h1
-              className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold"
-              data-aos="fade-right"
-            >
-              Impact is what sets us
-            </h1>
-            <h1
-              className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold"
-              data-aos="fade-right"
-            >
-              apart from the crowd.
-            </h1>
-            <p
-              className="mt-5 text-sm md:text-[1rem] lg:text-lg"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              We empower our clients to use the internet{" "}
-            </p>
-            <p
-              className="text-sm md:text-[1rem] lg:text-lg"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              to its full potential by providing affordable,
-            </p>
-            <p
-              className="text-sm md:text-[1rem] lg:text-lg"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              {" "}
-              effective, custom design and marketing solutions.
-            </p>
-            <Link>
-              <div
-                className="text-sm md:text-[1rem] lg:text-lg hover:bg-[#E87B37] hover:text-white hover:border-[#E87B37] cursor-pointer border-[#E87B37] border-2 rounded-md w-[10rem] text-center p-[1rem] mt-9"
+      <div className="h-screen items-center bg font-[poppins-regular] w-full text-white">
+        <div className="max-w-[1400px] px-[10%]">
+          <Navbar />
+          <section className="flex items-center h-screen ">
+            <div>
+              <h1
+                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold"
                 data-aos="fade-right"
-                data-aos-delay="200"
-                data-aos-offset="-500"
               >
-                Learn More
-              </div>
-            </Link>
-          </div>
-        </section>
+                Impact is what sets us
+              </h1>
+              <h1
+                className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold"
+                data-aos="fade-right"
+              >
+                apart from the crowd.
+              </h1>
+              <p
+                className="mt-5 text-sm md:text-[1rem] lg:text-lg"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                We empower our clients to use the internet{" "}
+              </p>
+              <p
+                className="text-sm md:text-[1rem] lg:text-lg"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                to its full potential by providing affordable,
+              </p>
+              <p
+                className="text-sm md:text-[1rem] lg:text-lg"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                {" "}
+                effective, custom design and marketing solutions.
+              </p>
+              <Link>
+                <div
+                  className="text-sm md:text-[1rem] lg:text-lg hover:bg-[#E87B37] hover:text-white hover:border-[#E87B37] cursor-pointer border-[#E87B37] border-2 rounded-md w-[10rem] text-center p-[1rem] mt-9"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-offset="-500"
+                >
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </section>
+        </div>
         <div className="custom-shape-divider-bottom-1695235927 mt-5">
           <svg
             data-name="Layer 1"
