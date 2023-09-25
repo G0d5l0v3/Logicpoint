@@ -4,7 +4,7 @@ import { ConfigProvider } from "antd";
 //import AboutUs from "./Pages/About/AboutUs";
 import LandingPage from "./Pages/LandingPage";
 //import Services from "./Pages/Services/Services";
-import NotFound from "./Pages/NotFound/NotFound";
+//import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         }}
       >
         <Routes>
-          <Route path="/" element={<NotFound />} />
-          <Route path="/test" element={<LandingPage />} />
-          {/* <Route path="/home" element={<Home />} />
+          <Route path="/" element={<LandingPage />} />
+          {/*<Route path="/test" element={<LandingPage />} />
+           <Route path="/home" element={<Home />} />
               <Route path="/about" element={<AboutUs />} />
               <Route path="/services" element={<Services />} /> */}
         </Routes>
