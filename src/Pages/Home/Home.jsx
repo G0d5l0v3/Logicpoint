@@ -24,10 +24,10 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <div className="h-screen items-center bg font-[poppins-regular] w-full text-white">
+      <div className="2xl:flex 2xl:flex-col h-screen items-center bg font-[poppins-regular] w-full text-white">
         <div className="max-w-[1400px] px-[10%]">
           <Navbar />
-          <section className="flex items-center h-screen ">
+          <section className="flex items-center h-screen w-full">
             <div>
               <h1
                 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold"
