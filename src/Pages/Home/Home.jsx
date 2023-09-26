@@ -4,9 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 //import { motion } from "framer-motion"
 import Navbar from "./Navbar";
-
 import { Link } from "react-scroll";
-
 import "../../index.css";
 
 const Home = () => {
@@ -24,8 +22,8 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <div className="2xl:flex 2xl:flex-col h-screen items-center bg font-[poppins-regular] w-full text-white">
-        <div className="max-w-[1400px] px-[10%]">
+      <div className="h-screen items-center bg font-[poppins-regular] w-full text-white">
+        <div className="px-[10%] 2xl:px-[25%]">
           <Navbar />
           <section className="flex items-center h-screen w-full">
             <div>
