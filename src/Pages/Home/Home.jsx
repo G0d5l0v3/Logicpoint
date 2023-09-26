@@ -63,7 +63,7 @@ const Home = () => {
               </p>
               <Link>
                 <div
-                  className="text-sm md:text-[1rem] lg:text-lg hover:bg-[#E87B37] hover:text-white hover:border-[#E87B37] cursor-pointer border-[#E87B37] border-2 rounded-md w-[10rem] text-center p-[1rem] mt-9"
+                  className="text-sm md:text-[1rem] lg:text-lg hover:opacity-30 hover:border-[#E87B37] cursor-pointer bg-[#E87B37] rounded-md w-[10rem] text-center p-[1rem] mt-9"
                   data-aos="fade-right"
                   data-aos-delay="200"
                   data-aos-offset="-500"
