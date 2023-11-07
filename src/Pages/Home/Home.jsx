@@ -4,7 +4,7 @@ import NavItems from '../../components/navbar/NavItems'
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#fffce0] w-full min-h-screen">
         <Navbar navLinks={NavItems} />
     </div>
   )

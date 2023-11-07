@@ -15,6 +15,10 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<Home />} />
+          <Route path="/services" element={<Home />} />
+          <Route path="/blog" element={<Home />} />
+          <Route path="/leadership" element={<Home />} />
         </Routes>
       </ConfigProvider>
     </div>
