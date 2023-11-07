@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../button/Button";
 import logo from "../../assets/images/Logicpoint-Logo.svg";
@@ -17,7 +17,7 @@ const Navbar = ({ navLinks }) => {
           <NavLink
             className={
               ({isActive}) => {
-                return ( isActive ? "mx-[2rem] text-[0.75rem] text-[#E87B37] font-semibold" : "mx-[2rem] text-[0.75rem] font-semibold")
+                return ( isActive ? "mx-[2rem] text-[0.8rem] text-[#E87B37] font-semibold" : "mx-[2rem] text-[0.8rem] font-semibold")
               }
             }
             to={link.to}
@@ -27,7 +27,7 @@ const Navbar = ({ navLinks }) => {
           </NavLink>
         ))}
       </div>
-      <Button description={"Contact Us"} color={"black"} />
+      <Button description="Contact Us" color="black" />
     </nav>
   );
 };
