@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import Button from "../button/Button";
 import logo from "../../assets/images/Logicpoint-Logo.svg";
 
@@ -17,16 +17,16 @@ const Navbar = ({ navLinks }) => {
           alt="Company Logo"
           className="w-25 h-10 border-r-[0.1rem] border-[#5D1570] pr-[0.5rem]"
         />
-        {navLinks.map((item) => (
-          <Link
-            className={`mx-[2rem] cursor-pointer text-[0.7rem] font-semibold ${
-              selectedId === item.id ? "text-[#E87B37]" : "text-black"
+        {navLinks.map((link) => (
+          <NavLink
+            className={`mx-[2rem] cursor-pointer text-[0.8rem] font-semibold ${
+              selectedId === link.id ? "" : "text-black"
             }`}
-            key={item.id}
-            onClick={() => handleClick(item.id)}
+            key={link.id}
+            onClick={() => handleClick(link.id)}
           >
-            {item.name}
-          </Link>
+            {link.name}
+          </NavLink>
         ))}
       </div>
       <Button description={"Contact Us"} color={"black"} />
