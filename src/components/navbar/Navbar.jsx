@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
+import Hamburger from "hamburger-react";
 import Button from "../button/Button";
 import logo from "../../assets/images/Logicpoint-Logo.svg";
 
 const Navbar = ({ navLinks }) => {
+
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <nav className="flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[5rem] pt-[1rem]">
@@ -15,11 +18,11 @@ const Navbar = ({ navLinks }) => {
         />
         {navLinks.map((link) => (
           <NavLink
-            className={
-              ({isActive}) => {
-                return ( isActive ? "mx-[2rem] text-[0.8rem] text-[#E87B37] font-semibold" : "mx-[2rem] text-[0.8rem] font-semibold")
-              }
-            }
+            className={({ isActive }) => {
+              return isActive
+                ? "mx-[2rem] text-[0.8rem] text-[#E87B37] font-semibold"
+                : "mx-[2rem] text-[0.8rem] font-semibold hover:opacity-[0.7]";
+            }}
             to={link.to}
             key={link.id}
           >
@@ -28,6 +31,7 @@ const Navbar = ({ navLinks }) => {
         ))}
       </div>
       <Button description="Contact Us" color="black" />
+      <Hamburger toggled={isOpen} toggle={setIsOpen} size={20} />
     </nav>
   );
 };
