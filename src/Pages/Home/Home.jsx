@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
-import NavItems from '../../components/navbar/NavItems'
 
 const Home = () => {
   return (
     <div>
-        <Navbar navLinks={NavItems} />
+        <Navbar />
+        <h1 className="text-center">Welcome to the home page!</h1>
     </div>
   )
 }
