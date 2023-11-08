@@ -20,9 +20,9 @@ const Navbar = () => {
             <Button description="Contact Us" color="black" />
           </div>
           <div className="lg:hidden">
-            <Hamburger toggled={isOpen} toggle={setIsOpen} size={20} />
+            <Hamburger rounded toggled={isOpen} toggle={setIsOpen} size={20} easing="ease-in"/>
           </div>
-        </div>
+        </div> 
       </nav>
 
       {/* CONDITIONAL RENDERING FOR MOBILE VIEW */}

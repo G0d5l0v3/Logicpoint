@@ -8,8 +8,8 @@ const Link = ({links, className}) => {
         <NavLink
           className={({ isActive }) => {
             return isActive
-              ? "mx-[2rem] text-[0.8rem] text-[#E87B37] font-semibold"
-              : "mx-[2rem] text-[0.8rem] font-semibold hover:opacity-[0.7]";
+              ? "mx-[2rem] text-[0.85rem] text-[#5D1570] font-semibold"
+              : "mx-[2rem] text-[0.8rem] text-[#181830] font-semibold hover:opacity-[0.7]";
           }}
           to={link.to}
           key={link.id}
