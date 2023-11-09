@@ -10,14 +10,14 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[5rem] pt-[1rem]">
+      <nav className="bg-[#f9f6da] flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem]">
         <div className="flex items-center">
           <Logo />
           <Link links={NavItems} className="hidden lg:flex" />
         </div>
         <div className="flex">
           <div className="hidden lg:flex">
-            <Button description="Contact Us" color="black" />
+            <Button description="Contact Us" color="purple" />
           </div>
           <div className="lg:hidden">
             <Hamburger rounded toggled={isOpen} toggle={setIsOpen} size={20} easing="ease-in"/>
