@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         <div className="flex">
           <div className="hidden lg:flex">
-            <Button description="Contact Us" color="purple" />
+            <Button description="Contact Us" color="black" />
           </div>
           <div className="lg:hidden">
             <Hamburger rounded toggled={isOpen} toggle={setIsOpen} size={20} easing="ease-in"/>
@@ -27,7 +27,7 @@ const Navbar = () => {
 
       {/* CONDITIONAL RENDERING FOR MOBILE VIEW */}
       {isOpen && (
-        <div className="flex items-center justify-center flex-col font-[exo] lg:hidden">
+        <div className="bg-[#f9f6da] flex items-center justify-center flex-col font-[exo] lg:hidden">
           <Link
             links={NavItems}
             className="flex basis-full flex-wrap items-center justify-center flex-col"

@@ -5,13 +5,13 @@ import image1 from "../../assets/images/image6.jpg";
 import image2 from "../../assets/images/pexels.jpg";
 import image3 from "../../assets/images/image3.jpg";
 import image4 from "../../assets/images/image7.jpg";
-import platinumPartnerLogo from "../../assets/images/3CX-platinum-partner-logo.png";
+//import platinumPartnerLogo from "../../assets/images/3CX-platinum-partner-logo.png";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-[#f9f6da] flex justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] ">
+      <div className="bg-[#f9f6da] flex h-screen justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] ">
         <div className="flex flex-col text-[#181830]">
           <div>
             <h1 className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
@@ -37,14 +37,14 @@ const Home = () => {
           </div>
           <div className="flex py-[2rem]">
             <Button description="Connect with Us" />
-            <img
+            {/*            <img
               src={platinumPartnerLogo}
               alt="3cx-platinum-logo"
               className=" h-30 w-20"
-            />
+  />*/}
           </div>
         </div>
-        <div className="grid grid-cols-2 w-[40%] py-[2rem] gap-3">
+        <div className="hidden lg:grid md:grid-cols-2 md:w-[40%] md:py-[2rem] md:gap-3">
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image1}

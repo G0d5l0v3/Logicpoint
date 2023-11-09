@@ -4,7 +4,7 @@ const Button = ({ description, color }) => {
   return (
     <button
       className={
-        color === "purple"
+        color === "black"
           ? "text-white text-[0.8rem] bg-black hover:opacity-[0.7] font-semibold font-[exo] px-4 py-2 "
           : "hover:border-[#5D1570] bg-[#5D1570] text-white hover:opacity-[0.7] border-2 text-[0.8rem] font-[exo] font-semibold max-w-[15rem] px-4 py-2 "
       }
