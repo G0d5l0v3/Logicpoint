@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-[#f9f6da] flex h-screen justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] ">
+      <div className="bg-[#f9f6da] flex min-h-screen justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] ">
         <div className="flex flex-col text-[#181830]">
           <div>
             <h1 className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
@@ -44,29 +44,29 @@ const Home = () => {
   />*/}
           </div>
         </div>
-        <div className="hidden lg:grid md:grid-cols-2 md:w-[40%] md:py-[2rem] md:gap-3">
+        <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image1}
               alt="homeBg1"
-              className="h-60 w-full rounded-lg object-cover"
+              className="md:h-40 lg:h-60 w-full rounded-lg object-cover"
             />
             <img
               src={image2}
               alt="homeBg2"
-              className="h-60 w-full rounded object-contain"
+              className="md:h-40 lg:h-60 w-full rounded object-contain"
             />
           </div>
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image4}
               alt="homeBg3"
-              className="h-60 w-full rounded-3xl object-contain"
+              className="md:h-40 lg:h-60 w-full rounded-3xl object-contain"
             />
             <img
               src={image3}
               alt="homeBg4"
-              className="h-60 w-full rounded-lg object-cover"
+              className="md:h-40 lg:h-60 w-full rounded-lg object-cover"
             />
           </div>
         </div>
