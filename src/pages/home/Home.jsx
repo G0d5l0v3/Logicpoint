@@ -52,24 +52,24 @@ const Home = () => {
             <img
               src={image1}
               alt="homeBg1"
-              className="md:h-40 lg:h-60 w-full rounded-lg object-cover"
+              className="md:h-40 lg:h-60 2xl:h-80 w-full rounded-lg object-cover"
             />
             <img
               src={image2}
               alt="homeBg2"
-              className="md:h-40 lg:h-60 w-full rounded object-contain"
+              className="md:h-40 lg:h-60 2xl:h-80 w-full rounded object-contain"
             />
           </div>
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image4}
               alt="homeBg3"
-              className="md:h-40 lg:h-60 w-full rounded-3xl object-contain"
+              className="md:h-40 lg:h-60 2xl:h-80 w-full rounded-3xl object-contain"
             />
             <img
               src={image3}
               alt="homeBg4"
-              className="md:h-40 lg:h-60 w-full rounded-lg object-cover"
+              className="md:h-40 lg:h-60 2xl:h-80 w-full rounded-lg object-cover"
             />
           </div>
         </motion.div>
