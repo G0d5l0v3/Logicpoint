@@ -17,7 +17,7 @@ const Home = () => {
           className="flex flex-col text-[#181830]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ease: "easeInOut", duration: 1 , delay: 1}}
+          transition={{ease: "easeInOut", duration: 1 , delay: 2}}
         >
           <div>
             <h1 className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
@@ -54,7 +54,7 @@ const Home = () => {
           className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ease: "easeInOut", duration: 3, delay:2 }}
+          transition={{ease: "easeInOut", duration: 3, delay:3 }}
         >
           <div className="grid grid-rows-2 w-full ">
             <img

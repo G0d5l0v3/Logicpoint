@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import Link from "./Link";
 import NavItems from "../../components/navbar/NavItems";
 import Hamburger from "hamburger-react";
@@ -21,7 +21,12 @@ const Navbar = () => {
           <Logo />
           <Link links={NavItems} className="hidden lg:flex" />
         </motion.div>
-        <div className="flex">
+        <motion.div
+          className="flex"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+        >
           <div className="hidden lg:flex">
             <Button description="Contact Us" color="black" />
           </div>
@@ -34,7 +39,7 @@ const Navbar = () => {
               easing="ease-in"
             />
           </div>
-        </div>
+        </motion.div>
       </nav>
 
       {/* CONDITIONAL RENDERING FOR MOBILE VIEW */}
