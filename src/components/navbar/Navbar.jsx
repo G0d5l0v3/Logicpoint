@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion"
 import Link from "./Link";
 import NavItems from "../../components/navbar/NavItems";
 import Hamburger from "hamburger-react";
@@ -11,18 +12,29 @@ const Navbar = () => {
   return (
     <header>
       <nav className="bg-[#f9f6da] flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem]">
-        <div className="flex items-center">
+        <motion.div
+          className="flex items-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+        >
           <Logo />
           <Link links={NavItems} className="hidden lg:flex" />
-        </div>
+        </motion.div>
         <div className="flex">
           <div className="hidden lg:flex">
             <Button description="Contact Us" color="black" />
           </div>
           <div className="lg:hidden">
-            <Hamburger rounded toggled={isOpen} toggle={setIsOpen} size={20} easing="ease-in"/>
+            <Hamburger
+              rounded
+              toggled={isOpen}
+              toggle={setIsOpen}
+              size={20}
+              easing="ease-in"
+            />
           </div>
-        </div> 
+        </div>
       </nav>
 
       {/* CONDITIONAL RENDERING FOR MOBILE VIEW */}

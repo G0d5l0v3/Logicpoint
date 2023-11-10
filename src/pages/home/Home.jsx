@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Navbar from "../../components/navbar/Navbar";
 import Button from "../../components/button/Button";
 import image1 from "../../assets/images/image6.jpg";
@@ -11,8 +12,13 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-[#f9f6da] flex min-h-screen justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] ">
-        <div className="flex flex-col text-[#181830]">
+      <div className="bg-[#f9f6da] flex min-h-[80svh] justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
+        <motion.div
+          className="flex flex-col text-[#181830]"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ease: "easeInOut", duration: 1 , delay: 1}}
+        >
           <div>
             <h1 className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
               Empowering Brands
@@ -35,7 +41,7 @@ const Home = () => {
               cutting edge of contact centre business.
             </p>
           </div>
-          <div className="flex py-[2rem]">
+          <div className="py-[2rem]">
             <Button description="Connect with Us" />
             {/*            <img
               src={platinumPartnerLogo}
@@ -43,8 +49,13 @@ const Home = () => {
               className=" h-30 w-20"
   />*/}
           </div>
-        </div>
-        <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
+        </motion.div>
+        <motion.div
+          className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ease: "easeInOut", duration: 3, delay:2 }}
+        >
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image1}
@@ -69,7 +80,7 @@ const Home = () => {
               className="md:h-40 lg:h-60 w-full rounded-lg object-cover"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
