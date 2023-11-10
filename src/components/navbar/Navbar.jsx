@@ -10,8 +10,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header>
-      <nav className="bg-[#f9f6da] flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem] pb-[1rem]">
+    <header className="bg-[#f9f6da]">
+      <nav className=" flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem] pb-[1rem]">
         <motion.div
           className="flex items-center"
           initial={{ opacity: 0 }}

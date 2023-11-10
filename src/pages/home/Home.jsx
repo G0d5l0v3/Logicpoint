@@ -8,8 +8,8 @@ import image4 from "../../assets/images/image7.jpg";
 
 const Home = () => {
   return (
-    <div>
-      <div className="bg-[#f9f6da] flex min-h-[80svh] justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
+    <div className="bg-[#f9f6da]">
+      <div className=" flex min-h-[80svh] justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
         <motion.div
           className="flex flex-col text-[#181830]"
           initial={{ opacity: 0 }}
