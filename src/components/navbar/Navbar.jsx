@@ -25,7 +25,7 @@ const Navbar = () => {
           className="flex"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 2 }}
         >
           <div className="hidden lg:flex">
             <Button description="Contact Us" color="black" />

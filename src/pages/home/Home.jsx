@@ -1,17 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../../components/navbar/Navbar";
 import Button from "../../components/button/Button";
 import image1 from "../../assets/images/image6.jpg";
 import image2 from "../../assets/images/pexels.jpg";
 import image3 from "../../assets/images/image3.jpg";
 import image4 from "../../assets/images/image7.jpg";
-//import platinumPartnerLogo from "../../assets/images/3CX-platinum-partner-logo.png";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div className="bg-[#f9f6da] flex min-h-[80svh] justify-between items-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
         <motion.div
           className="flex flex-col text-[#181830]"
@@ -43,11 +40,6 @@ const Home = () => {
           </div>
           <div className="py-[2rem]">
             <Button description="Connect with Us" />
-            {/*            <img
-              src={platinumPartnerLogo}
-              alt="3cx-platinum-logo"
-              className=" h-30 w-20"
-  />*/}
           </div>
         </motion.div>
         <motion.div
