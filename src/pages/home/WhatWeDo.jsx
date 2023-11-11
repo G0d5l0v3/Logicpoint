@@ -17,7 +17,7 @@ const WhatWeDo = () => {
               className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem] text-[#181830]"
               data-aos="fade-right"
               data-aos-easing="linear"
-              data-aos-duration="1500"
+              data-aos-duration="1000"
             >
               <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">
                 What
@@ -42,7 +42,7 @@ const WhatWeDo = () => {
           className="w-full pt-[2rem] md:w-[45%]"
           data-aos="fade-left"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <img
             src={image9}
