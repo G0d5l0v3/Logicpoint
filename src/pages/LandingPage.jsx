@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import Home from "./home/Home";
 import WhatWeDo from "./home/WhatWeDo";
-import ServicesWeProvide from "./home/ServicesWeProvide";
+import OurSevices from "./home/OurServices";
 
 const LandingPage = () => {
   return (
@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Navbar />
       <Home />
       <WhatWeDo />
-      <ServicesWeProvide />
+      <OurSevices />
     </div>
   );
 };
