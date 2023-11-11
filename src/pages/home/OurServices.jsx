@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import OurServicesBox from "./OurServicesBox";
 import OurServicesItems from "./OurServicesItems";
+import Button from "../../components/button/Button";
 
 const OurServices = () => {
   useEffect(() => {
@@ -22,8 +23,11 @@ const OurServices = () => {
             <span className="text-[#E87B37]"> Services</span>{" "}
           </h1>
         </div>
-        <div className="py-[4rem]" data-aos="fade-right" data-aos-duration="1000">
+        <div className="py-[4rem]" data-aos="fade-up" data-aos-duration="1000">
           <OurServicesBox services={OurServicesItems} />
+        </div>
+        <div className="flex justify-center items-center">
+          <Button description="Services" />
         </div>
       </div>
     </div>

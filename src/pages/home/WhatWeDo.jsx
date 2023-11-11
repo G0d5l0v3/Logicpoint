@@ -13,7 +13,7 @@ const WhatWeDo = () => {
       <div className=" md:flex min-h-screen md:min-h-[80svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
         <div
           className="flex flex-col "
-          data-aos="fade-up"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <div>
