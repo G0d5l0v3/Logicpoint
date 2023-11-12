@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { useScrollPosition } from "../../hooks/useScrollPosition";
 import Link from "./Link";
 import NavItems from "../../components/navbar/NavItems";
 import Hamburger from "hamburger-react";
@@ -8,25 +9,27 @@ import Button from "../button/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollPosition = useScrollPosition();
 
   return (
-    <header className="bg-[#f9f6da]">
-      <nav className=" flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem] pb-[1rem]">
-        <motion.div
-          className="flex items-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
-        >
+    <header
+      className={
+        scrollPosition !== 0
+          ? "sticky bg-white top-0 z-10 shadow"
+          : "sticky bg-white top-0 z-10"
+      }
+    >
+      <nav
+        className="flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem] pb-[1rem]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+      >
+        <motion.div className="flex items-center">
           <Logo />
           <Link links={NavItems} className="hidden lg:flex" />
         </motion.div>
-        <motion.div
-          className="flex"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1, delay: 2 }}
-        >
+        <motion.div className="flex">
           <div className="hidden lg:flex">
             <Button description="Contact Us" color="black" />
           </div>

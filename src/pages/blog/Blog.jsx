@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
 
 const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <div>
+      {" "}
+      <Navbar />
+    </div>
+  );
+};
 
-export default Blog
+export default Blog;

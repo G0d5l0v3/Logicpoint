@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
 
 const Leadership = () => {
   return (
-    <div>Leadership</div>
-  )
-}
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
-export default Leadership
+export default Leadership;

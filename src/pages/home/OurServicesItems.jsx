@@ -16,7 +16,7 @@ const OurServicesItems = [
     },
     {
         id: 4,
-        title: "Consultancy",
+        title: "IT Consultancy",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
     },
 ]
