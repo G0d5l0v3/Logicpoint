@@ -47,12 +47,14 @@ const Navbar = () => {
 
       {/* CONDITIONAL RENDERING FOR MOBILE VIEW */}
       {isOpen && (
-        <div className="bg-[#f9f6da] flex items-center justify-center flex-col font-[exo] lg:hidden">
-          <Link
-            links={NavItems}
-            className="flex basis-full flex-wrap items-center justify-center flex-col"
-          />
-          <Button description="Contact Us" color="black" />
+        <div className="bg-[#ece7eb] flex items-center h-screen justify-center flex-col font-[exo] lg:hidden">
+          <div className="grid gap-3">
+            <Link
+              links={NavItems}
+              className="flex basis-full flex-wrap items-center justify-center flex-col"
+            />
+            <Button description="Contact Us" color="black" />
+          </div>
         </div>
       )}
     </header>

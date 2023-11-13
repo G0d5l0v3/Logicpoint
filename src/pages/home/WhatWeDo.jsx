@@ -10,7 +10,7 @@ const WhatWeDo = () => {
 
   return (
     <div className="bg-[#ece7eb]">
-      <div className="md:flex min-h-screen md:min-h-[80svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] py-[1.2rem]">
+      <div className="grid gap-3 md:flex min-h-screen md:min-h-[80svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] py-[1.2rem]">
         <div
           className="flex flex-col "
           data-aos="fade-right"
