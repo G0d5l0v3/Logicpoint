@@ -12,7 +12,7 @@ const OurServices = () => {
   return (
     <div className="">
       <div
-        className="md:flex md:flex-col md:justify-center md:items-center md:pt-3 min-h-screen md:min-h-[70svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
+        className="flex flex-col justify-center items-center min-h-[70svh] max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] py-[1.2rem]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -22,7 +22,7 @@ const OurServices = () => {
             <span className="text-[#E87B37]"> We Offer</span>{" "}
           </h1>
         </div>
-        <div className="py-[4rem]" data-aos="fade-up" data-aos-duration="1000">
+        <div className="pt-[4rem]" data-aos="fade-up" data-aos-duration="1000">
           <OurServicesBox services={OurServicesItems} />
         </div> 
 
