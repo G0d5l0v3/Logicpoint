@@ -5,7 +5,7 @@ const Link = ({ links, className }) => {
   return (
     <div className={className}>
       {links.map((link) => (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" key={link.id}>
           <NavLink
             className={({ isActive }) => {
               return isActive
