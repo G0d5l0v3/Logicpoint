@@ -12,7 +12,7 @@ const OurServices = () => {
   return (
     <div className="">
       <div
-        className="md:flex md:flex-col md:pt-3 min-h-screen md:min-h-[70svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
+        className="md:flex md:flex-col pt-3 md:pt-3 min-h-screen md:min-h-[70svh] grid items-center justify-between max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
