@@ -5,7 +5,7 @@ const OurCommitment = () => {
   return (
     <div className="bg-[#181830]">
       <div
-        className="font-[exo] min-h-[80svh] flex flex-col justify-around max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
+        className="font-[exo] min-h-[80svh] flex flex-col md:flex justify-around max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
         data-aos="fade-right"
         data-aos-duration="1000"
       >
@@ -17,29 +17,33 @@ const OurCommitment = () => {
           </h1>
         </div>
         <div className="text-white font-[Exo]">
-          <div className="flex-col pt-[2rem] md:flex gap-3">
+          <div className="grid pt-[2rem] md:flex gap-3">
             <div>
               <h1 className="font-bold text-[#E87B37]">Exponential Growth</h1>
               <div className="pt-[1rem]">
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     1
                   </span>{" "}
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                   Committed 24/7 to generating sales and new customers for your
                   business.
+                  </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     2{" "}
                   </span>{" "}
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                   Proficient, highly skilled agents providing world-class
                   customer services.
+                  </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     3{" "}
                   </span>{" "}
-                  <p>
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                     Multi-process outsourced solutions that enable your business
                     to scale.
                   </p>
@@ -49,27 +53,27 @@ const OurCommitment = () => {
 
             <div>
               <h1 className="font-bold text-[#E87B37]">Cost Efficiency</h1>
-              <div className="pt-[1rem]">
+              <div className="grid pt-[1rem]">
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     1{" "}
                   </span>{" "}
-                  <p>Cost reductions of up to 70% for frontline and back office services.</p>
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">Cost reductions of up to 70% for frontline and back office services.</p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     2{" "}
                   </span>{" "}
-                  <p>
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                     Multi-talented teams of customer service and support from
                     seasoned experts.
                   </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
-                  <span className="flex items-center justify-center rounded-full h-7 md:h-10 w-10 bg-[#E87B37]">
+                  <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     3{" "}
                   </span>{" "}
-                  <p>
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                     Multi-process outsourced solutions that enable your business
                     to scale.
                   </p>
@@ -77,7 +81,7 @@ const OurCommitment = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[3rem] px">
+          <div className="mt-[3rem] hover:opacity-[0.7]">
             <Button description="Talk to Us" />
           </div>
         </div>
