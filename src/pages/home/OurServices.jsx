@@ -12,7 +12,7 @@ const OurServices = () => {
   return (
     <div className="">
       <div
-        className="flex flex-col justify-center items-center min-h-[70svh] max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] py-[2rem]"
+        className="flex flex-col justify-center items-center min-h-screen 2xl:min-h-[80svh] max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem] py-[2rem]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >

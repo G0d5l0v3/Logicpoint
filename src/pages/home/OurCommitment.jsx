@@ -26,8 +26,8 @@ const OurCommitment = () => {
                     1
                   </span>{" "}
                   <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
-                  Committed 24/7 to generating sales and new customers for your
-                  business.
+                    Committed 24/7 to generating sales and new customers for
+                    your business.
                   </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
@@ -35,8 +35,8 @@ const OurCommitment = () => {
                     2{" "}
                   </span>{" "}
                   <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
-                  Proficient, highly skilled agents providing world-class
-                  customer services.
+                    Proficient, highly skilled agents providing world-class
+                    customer services.
                   </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
@@ -58,7 +58,10 @@ const OurCommitment = () => {
                   <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
                     1{" "}
                   </span>{" "}
-                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">Cost reductions of up to 70% for frontline and back office services.</p>
+                  <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
+                    Cost reductions of up to 70% for frontline and back office
+                    services.
+                  </p>
                 </div>
                 <div className="flex items-center gap-3 py-[1rem]">
                   <span className="flex items-center justify-center rounded-full h-10 w-10 bg-[#E87B37]">
