@@ -81,7 +81,7 @@ const OurCommitment = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[3rem] hover:opacity-[0.7]">
+          <div className="my-[3rem] hover:opacity-[0.7]">
             <Button description="Talk to Us" />
           </div>
         </div>
