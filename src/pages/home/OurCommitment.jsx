@@ -4,19 +4,25 @@ import Button from "../../components/button/Button";
 const OurCommitment = () => {
   return (
     <div className="bg-[#181830]">
-      <div
-        className="font-[exo] min-h-[80svh] flex flex-col md:flex justify-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
+      <div className="font-[exo] min-h-[80svh] flex flex-col md:flex justify-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
         <div>
-          <h1 className="text-white py-[2rem] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem] text-[#181830]">
+          <h1
+            className="text-white py-[2rem] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem] text-[#181830]"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <span className="border-b-8 border-[#5D1570] ">Our </span>
             <span>Commitment </span>
             <span className="text-[#E87B37]">to You</span>{" "}
           </h1>
         </div>
-        <div className="text-white font-[Exo]">
+        <div
+          className="text-white font-[Exo]"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-offset="0"
+        >
           <div className="grid pt-[2rem] md:flex gap-3">
             <div>
               <h1 className="font-bold text-[#E87B37]">Exponential Growth</h1>
