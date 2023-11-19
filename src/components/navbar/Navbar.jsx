@@ -27,7 +27,7 @@ const Navbar = () => {
       >
         <motion.div className="flex items-center">
           <Logo />
-          <Link links={NavItems} className="hidden lg:flex" />
+          <Link links={NavItems} className="hidden lg:flex text-[0.8rem]" />
         </motion.div>
         <motion.div className="flex">
           <div className="hidden lg:flex">
@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="grid gap-3">
             <Link
               links={NavItems}
-              className="flex basis-full flex-wrap items-center justify-center flex-col"
+              className="flex basis-full flex-wrap items-center justify-center flex-col text-[4rem]"
             />
             <Button description="Contact Us" color="black" />
           </div>

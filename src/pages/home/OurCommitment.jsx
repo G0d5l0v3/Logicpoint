@@ -4,7 +4,7 @@ import Button from "../../components/button/Button";
 const OurCommitment = () => {
   return (
     <div className="bg-[#181830]">
-      <div className="font-[exo] min-h-[80svh] flex flex-col md:flex justify-center max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
+      <div className="font-[exo] min-h-[70svh] flex flex-col md:flex justify-center pt-[2rem] max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
         <div>
           <h1
             className="text-white py-[2rem] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem] text-[#181830]"
