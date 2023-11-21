@@ -4,7 +4,7 @@ const WhatMotivatesUs = () => {
   return (
     <div className="bg-[#181830]">
       <div
-        className="font-[exo] text-white min-h-[30svh] flex flex-col md:flex max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
+        className="font-[exo] text-white min-h-[30svh] md:min-h-[50svh] md:justify-center flex flex-col md:flex max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
@@ -19,7 +19,7 @@ const WhatMotivatesUs = () => {
         <p className="pb-[0.3rem}">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e{" "}
         </p>
-        <p className="pb-[0.15rem]">
+        <p className="pb-[0.3rem]">
           based on the customized requirements of our partner clients.
         </p>
       </div>

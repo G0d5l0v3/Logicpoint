@@ -1,24 +1,32 @@
+import Globus from "../../assets/images/globus-logo.png";
+import Meristem from "../../assets/images/meristem-logo.png";
+import Parallex from "../../assets/images/parallex-logo.png";
+import Sanef from "../../assets/images/sanef-logo.png";
+import Pal from "../../assets/images/pal-logo.png";
+import Zedvance from "../../assets/images/zedvance-logo.png";
+
+
 const ClientsItems = [
     {
-        id: 1,
-        title: "Globus",
-        path: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+      id: 1,
+      src: Globus,
     },
     {
-        id: 2,
-        title: "Parallex",
-        path: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+      id: 1,
+      src: Meristem,
     },
     {
-        id: 3,
-        title: "Technical Support",
-        path: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+      id: 1,
+      src: Parallex,
     },
     {
-        id: 4,
-        title: "IT Consultancy",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+      id: 1,
+      src: Pal,
     },
-]
+    {
+      id: 1,
+      src: Zedvance,
+    },
+  ];
 
 export default ClientsItems
