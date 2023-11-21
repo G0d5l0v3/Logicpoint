@@ -8,9 +8,6 @@ import WhatMotivatesUs from "./home/WhatMotivatesUs";
 import Clients from "./home/Clients"
 import ClientsItems from "./home/ClientsItem";
 
-
-
-
 const LandingPage = () => {
   return (
     <div>
