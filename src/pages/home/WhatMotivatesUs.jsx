@@ -8,7 +8,7 @@ const WhatMotivatesUs = () => {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <h1 className="py-[2rem] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
+        <h1 className="font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem]">
           <span className="border-b-8 border-[#5D1570] ">What </span>
           <span className="text-[#E87B37]">Motivates </span>
           <span>Us </span>{" "}
@@ -19,7 +19,7 @@ const WhatMotivatesUs = () => {
         <p className="pb-[0.3rem}">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e{" "}
         </p>
-        <p className="pb-[0.5rem]">
+        <p className="">
           based on the customized requirements of our partner clients.
         </p>
       </div>

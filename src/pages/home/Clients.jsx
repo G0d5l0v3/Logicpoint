@@ -5,8 +5,8 @@ const Clients = ({ images }) => {
   const duplicatedImage = [...images, ...images];
 
   return (
-    <div className="">
-      <div className="flex justify-center items-center pt-[3rem]">
+    <div className="flex flex-col items-center justify-center h-[70svh] 2xl:h-[60svh]">
+      <div className="flex justify-center items-center">
         <h1 className="font-[exo] font-semibold text-4xl sm:text-5xl lg:text-6xl py-[0.3rem] text-[#181830]">
           <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">
             Our
@@ -15,7 +15,7 @@ const Clients = ({ images }) => {
         </h1>
       </div>
 
-      <div className="flex items-center justify-center h-[60svh]">
+      <div className="flex items-center justify-center pt-[4rem]">
         <FastMarquee speed={60} gradient>
           {duplicatedImage.map((image) => (
             <div key={image.id}>
