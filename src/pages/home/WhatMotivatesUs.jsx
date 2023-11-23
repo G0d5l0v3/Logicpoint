@@ -4,7 +4,7 @@ const WhatMotivatesUs = () => {
   return (
     <div className="bg-[#181830]">
       <div
-        className="font-[exo] text-white min-h-[30svh] md:min-h-[50svh] flex flex-col md:flex max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
+        className="font-[exo] text-white min-h-[50svh] flex flex-col md:flex max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
@@ -13,15 +13,25 @@ const WhatMotivatesUs = () => {
           <span className="text-[#E87B37]">Motivates </span>
           <span>Us </span>{" "}
         </h1>
-        <p className="pt-[2rem] pb-[0.3rem}">
-          There are no limitations in terms of the industries we can assist, as we employ and upskill our teams {" "}
-        </p>
-        <p className="pb-[0.3rem}">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e{" "}
-        </p>
-        <p className="">
-          based on the customized requirements of our partner clients.
-        </p>
+        <div
+          className="text-white font-[Exo]"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-offset="0"
+        >
+          <p className="pt-[2rem] pb-[0.3rem}">
+            There are no limitations in terms of the industries we can assist,
+            as we employ and upskill our teams{" "}
+          </p>
+          <p className="pb-[0.3rem}">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            quae voluptate e{" "}
+          </p>
+          <p className="">
+            based on the customized requirements of our partner clients.
+          </p>
+        </div>
       </div>
     </div>
   );

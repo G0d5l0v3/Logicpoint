@@ -7,6 +7,7 @@ import OurCommitment from "./home/OurCommitment";
 import WhatMotivatesUs from "./home/WhatMotivatesUs";
 import Clients from "./home/Clients"
 import ClientsItems from "./home/ClientsItem";
+import Footer from "./home/Footer"
 
 const LandingPage = () => {
   return (
@@ -17,7 +18,8 @@ const LandingPage = () => {
       <OurSevices />
       <OurCommitment />
       <WhatMotivatesUs />
-      <Clients images={ClientsItems}/>
+      <Clients images={ClientsItems} />
+      <Footer />
     </div>
   );
 };
