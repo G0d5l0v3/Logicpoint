@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-around">
           <div className="flex flex-col gap-3">
-            <h1 className="font-bold text-[#E87B37] text-md sm:text-lg lg:text-xl">Quick Link</h1>
+            <h1 className="font-bold text-[#E87B37] text-md sm:text-lg lg:text-xl">Navigation</h1>
             <NavLink to="/about-us" className="text-sm sm:text-md lg:text-lg hover:opacity-[0.7]">
               About Us
             </NavLink>
@@ -38,7 +38,7 @@ const Footer = () => {
             </NavLink>
           </div>
           <div className="flex flex-col gap-3">
-            <h1 className="font-bold text-[#E87B37] text-md sm:text-lg lg:text-xl">Quick Contact</h1>
+            <h1 className="font-bold text-[#E87B37] text-md sm:text-lg lg:text-xl">Contact</h1>
             <p className="text-sm sm:text-md lg:text-lg">
               support@logicpointng.com
             </p>
