@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/images/Logicpoint-Logo.svg";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
