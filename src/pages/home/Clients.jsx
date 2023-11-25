@@ -24,7 +24,7 @@ const Clients = ({ images }) => {
               <img
                 src={image.src}
                 alt="companyImg"
-                className="pr-[5rem] "
+                className="pr-[5rem] mx-[-20px]"
               />
             </div>
           ))}

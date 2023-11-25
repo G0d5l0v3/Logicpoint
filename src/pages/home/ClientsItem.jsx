@@ -1,9 +1,9 @@
 import Globus from "../../assets/images/globus-logo.png";
 import Meristem from "../../assets/images/meristem-logo.png";
 import Parallex from "../../assets/images/parallex-logo.png";
-//import Sanef from "../../assets/images/sanef-logo.png";
+import Sanef from "../../assets/images/sanef-logo2.png";
 import Pal from "../../assets/images/pal-logo.png";
-import Zedvance from "../../assets/images/zedvance-logo.png";
+import Zedvance from "../../assets/images/zedcrest-logo.png";
 
 
 const ClientsItems = [
@@ -12,19 +12,23 @@ const ClientsItems = [
       src: Globus,
     },
     {
-      id: 1,
+      id: 2,
+      src: Sanef
+    },
+    {
+      id: 3,
       src: Meristem,
     },
     {
-      id: 1,
+      id: 4,
       src: Parallex,
     },
     {
-      id: 1,
+      id: 5,
       src: Pal,
     },
     {
-      id: 1,
+      id: 6,
       src: Zedvance,
     },
   ];

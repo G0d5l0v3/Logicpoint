@@ -53,7 +53,7 @@ const Navbar = () => {
               links={NavItems}
               className="flex basis-full flex-wrap items-center justify-center flex-col text-[4rem]"
             />
-            <Button description="Contact Us" color="black" />
+            <Button description="Contact Us" color="mobile" />
           </div>
         </div>
       )}

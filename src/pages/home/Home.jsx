@@ -28,7 +28,7 @@ const Home = () => {
             </h1>
           </div>
           <div>
-            <p className="font-[poppins] text-sm sm:text-md lg:text-lg pt-[2rem] pb-[0.3rem}">
+            <p className="font-[poppins] text-sm sm:text-md lg:text-lg pt-[2rem]">
               We deploy the best-in-class technology to meet the unique{" "}
             </p>
             <p className="font-[poppins] text-sm sm:text-md lg:text-lg pb-[0.15rem]">
