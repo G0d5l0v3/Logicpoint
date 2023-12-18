@@ -46,12 +46,13 @@ const Home = () => {
           className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ease: "easeInOut", duration: 3, delay:3 }}
+          transition={{ease: "easeInOut", duration: 1, delay:2 }}
         >
           <div className="grid grid-rows-2 w-full ">
             <img
               src={image1}
               alt="homeBg1"
+              loading="lazy"
               className="md:h-40 lg:h-60 2xl:h-80 w-full rounded-lg object-cover"
             />
             <img

@@ -1,14 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/Logicpoint-Logo.svg";
 
 const Footer = () => {
   return (
     <div className="bg-[#0a0a1a] font-[exo] text-white">
-      <div className="grid md:grid-cols-2 place-content-center gap-3 min-h-screen max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
-        <div className="">
+      <div className="grid md:grid-cols-2 place-content-center gap-3 min-h-[50svh] max-w-[1440px] mx-auto px-[2rem] sm:px-[5rem]">
+        <div className="flex items-center">
+        <img
+          src={logo} 
+          alt="Company Logo"
+          className="w-45 h-40"
+        />
 
         </div>
-        <div className="flex justify-around">
+        <div className="grid gap-5 md:flex md:justify-around">
           <div className="flex flex-col gap-3">
             <h1 className="font-bold text-[#E87B37] text-md sm:text-lg lg:text-xl">Navigation</h1>
             <NavLink to="/about-us" className="text-sm sm:text-md lg:text-lg hover:opacity-[0.7]">

@@ -23,7 +23,7 @@ const Navbar = () => {
         className="flex justify-between items-center font-[exo] max-w-[1440px] mx-[auto] px-[2rem] sm:px-[5rem] pt-[1rem] pb-[1rem]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+        transition={{ ease: "easeInOut", duration: 1, delay: 2 }}
       >
         <motion.div className="flex items-center">
           <Logo />
@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="grid gap-3">
             <Link
               links={NavItems}
-              className="flex basis-full flex-wrap items-center justify-center flex-col text-[4rem]"
+              className="flex basis-full flex-wrap items-center justify-center flex-col text-[2.5rem]"
             />
             <Button description="Contact Us" color="mobile" />
           </div>
