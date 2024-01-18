@@ -15,8 +15,8 @@ const Navbar = () => {
     <header
       className={
         scrollPosition !== 0
-          ? "sticky bg-white top-0 z-10 shadow"
-          : "sticky bg-white top-0 z-10"
+          ? "sticky top-0 z-10 shadow bg-white/25 backdrop-blur-[20px] backdrop-saturation-[180%]"
+          : "sticky top-0 z-10"
       }
     >
       <nav
