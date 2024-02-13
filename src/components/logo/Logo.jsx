@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import logo from "../../assets/images/Logicpoint-Logo.svg";
 
-const Logo = () => {
+const Logo = ({ style }) => {
   return (
-    <>
-       <img
-          src={logo}
-          alt="Company Logo"
-          className="w-25 h-10 border-r-[0.15rem] border-[#dad7c4] pr-[0.5rem]"
-        />
-    </>
-  )
-}
+    <img
+      src={logo}
+      loading="lazy"
+      decoding="async"
+      alt="company-logo"
+      className={style}
+    />
+  );
+};
 
-export default Logo
+export default Logo;
