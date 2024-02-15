@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Result, Spin } from "antd";
-import Button from "../../components/button/Button";
+import Button from "../../../components/button/Button";
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 
-const Cart = () => {
+const Shop = () => {
 const [isLoading, setIsLoading] = useState(true);
 useEffect(() => {
   setTimeout(() => {
@@ -30,4 +31,4 @@ return isLoading ? (
   className="font-[exo] bg-gradient-to-r from-[#fcfafc] to-[#eaeaea] font-semibold min-h-screen"
 />
 )};
-export default Cart
+export default Shop

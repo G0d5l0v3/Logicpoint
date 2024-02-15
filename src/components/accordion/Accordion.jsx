@@ -31,18 +31,25 @@ const Accordion = ({ items }) => {
             </span>
           </div>
           {item.id === activeItemId && (
-            <div className="py-[1.3rem]">
+            <motion.div
+              className="py-[1.3rem]"
+              initial={{ height: 0, opacity: 0 }}
+              animate={{
+                height: activeItemId ? "auto" : "",
+                opacity: activeItemId ? 1 : "",
+              }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+            >
               <motion.p
-                initial={{ height: 0, opacity: 0 }}
+                initial={{ opacity: 0 }}
                 animate={{
-                  height: activeItemId ? "auto" : "",
-                  opacity: activeItemId ? 1 : "",
+                  opacity:  1 ,
                 }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
+                transition={{ duration: 1.5, ease: "easeInOut" }}
               >
                 {item.text}
               </motion.p>
-            </div>
+            </motion.div>
           )}
         </div>
       ))}
