@@ -1,0 +1,9 @@
+{
+    "navigationFallback": [
+      {
+        "route": "/*",
+        "rewrite": "/index.html",
+        "statusCode": 200
+      }
+    ]
+  }
