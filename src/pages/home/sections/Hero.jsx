@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto]"
+        className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] scrollbar-thumb-sky-700 scrollbar-track-sky-300 "
       >
         <div>
           <h1 className=" font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">

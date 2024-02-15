@@ -53,6 +53,7 @@ const HomePage = () => {
           variants={animateEaseIn}
           initial={"hidden"}
           animate={"visible"}
+          className=""
         >
           <Hero />
           <WhatWeDo />

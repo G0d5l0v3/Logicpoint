@@ -1,5 +1,6 @@
 import React from "react";
 import { Result, Spin } from "antd";
+import { LoadingOutlined } from "@ant-design/icons";
 import Button from "../../../components/button/Button";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -7,13 +8,25 @@ import { Link } from "react-router-dom";
 const Shop = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
+    // Simulate loading delay and then set isLoading to false
+    window.scrollTo(0, 0);
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 500);
   }, []);
   return isLoading ? (
     <div className="flex justify-center items-center min-h-screen w-full">
-      <Spin size="large" />
+      {" "}
+      <Spin
+        indicator={
+          <LoadingOutlined
+            style={{
+              fontSize: 30,
+            }}
+            spin
+          />
+        }
+      />
     </div>
   ) : (
     <Result
