@@ -33,11 +33,7 @@ const Accordion = ({ items }) => {
           {item.id === activeItemId && (
             <motion.div
               className="py-[1.3rem]"
-              initial={{ height: 0}}
-              animate={{
-                height: activeItemId ? "auto" : "",
-              }}
-              transition={{ duration: 0.5, ease: "easeInOut" }}
+
 
             >
               <motion.p
