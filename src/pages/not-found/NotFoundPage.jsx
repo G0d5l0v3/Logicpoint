@@ -28,11 +28,11 @@ const NotFoundPage = () => {
           status="404"
           title="404"
           subTitle="Sorry, the page you visited does not exist."
-          className="font-[poppins-regular]"
+          className="font-[exo]"
           extra={
             // Link back to home page
             <Link to="/">
-              <Button className="font-[poppins-regular] bg-[#9B5DE6]">
+              <Button className="font-[exo] bg-[#9B5DE6]">
                 Back Home
               </Button>
             </Link>
