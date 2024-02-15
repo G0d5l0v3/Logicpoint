@@ -32,9 +32,7 @@ const NotFoundPage = () => {
           extra={
             // Link back to home page
             <Link to="/">
-              <Button className="font-[exo] bg-[#9B5DE6]">
-                Back Home
-              </Button>
+              <Button description="Back Home" className="font-[exo] bg-[#9B5DE6]" />
             </Link>
           }
         />

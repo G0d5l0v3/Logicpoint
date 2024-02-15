@@ -11,7 +11,8 @@ const App = () => {
   const ServicePage = lazy(() => import("./pages/services/ServicePage"));
   const ShopPage = lazy(() => import("./pages/shop-products/ShopPage"));
   const ContactUs = lazy(() => import("./pages/contact-us/ContactUs"));
-  const Cart = lazy(() => import("./pages/cart/Cart"))
+  const Cart = lazy(() => import("./pages/cart/Cart"));
+  const NotFoundPage = lazy(() => import ("./pages/not-found/NotFoundPage"))
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/shop-products" element={<ShopPage />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <Footer />
         </Suspense>
