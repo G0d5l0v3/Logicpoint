@@ -1,8 +1,12 @@
+import { motion } from "framer-motion";
 const OurServicesBox = ({ services }) => {
+
   return (
-    <div className="grid lg:grid-cols-4 gap-4 font-[exo]">
+    <motion.div
+      className="grid lg:grid-cols-4 gap-4 font-[exo]"
+    >
       {services.map((service) => (
-        <div
+        <motion.div
           className="grid bg-[#0a0a1a] text-white shadow-lg rounded-lg h-[20rem] 2xl:h-[25rem] px-[1rem] sm:px-[2rem] pt-[2rem]"
           key={service.id}
         >
@@ -11,9 +15,9 @@ const OurServicesBox = ({ services }) => {
           </span>
           <h1 className="font-bold">{service.title}</h1>
           <p>{service.description}</p>
-        </div>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
