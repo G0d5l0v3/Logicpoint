@@ -11,7 +11,7 @@ const App = () => {
   const ServicePage = lazy(() => import("./pages/services/ServicePage"));
   const ShopPage = lazy(() => import("./pages/shop-products/ShopPage"));
   const ContactUs = lazy(() => import("./pages/contact-us/ContactUs"));
-  const Cart = lazy(() => import("./pages/cart/Cart"));
+  const Cart = lazy(() => import("./pages/cart/Cart"))
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
