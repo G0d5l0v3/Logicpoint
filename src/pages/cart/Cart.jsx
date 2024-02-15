@@ -11,7 +11,7 @@ const Cart = () => {
     }, 1000);
   }, []);
   return isLoading ? (
-    <div className="flex justify-center items-center min-h-screen w-full">
+    <div className="flex justify-center pt-[20rem] min-h-screen w-full">
       <Spin size="large" />
     </div>
   ) : (
