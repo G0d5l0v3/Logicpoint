@@ -3,9 +3,7 @@ import { motion } from "framer-motion";
 
 const Accordion = ({ items }) => {
   const [activeItemId, setActiveItemId] = useState(null);
-  const [isOpen, setIsOpen] = useState(false);
   function handleToggle(id) {
-    setIsOpen(true);
     setActiveItemId(id !== activeItemId ? id : null);
   }
   return (
@@ -33,26 +31,18 @@ const Accordion = ({ items }) => {
             </span>
           </div>
           {item.id === activeItemId && (
-            <motion.div
-              className="py-[1.3rem]"
-              initial={{ height: 0, opacity: 0 }}
-              animate={{
-                height: isOpen ? "auto" : 0,
-                opacity: isOpen ? 1 : 0,
-              }}
-              transition={{ duration: 1, ease: "easeInOut" }}
-            >
+            <div className="py-[1.3rem]">
               <motion.p
                 initial={{ height: 0, opacity: 0 }}
                 animate={{
-                  height: isOpen ? "auto" : "",
-                  opacity: isOpen ? 1 : "",
+                  height: activeItemId ? "auto" : "",
+                  opacity: activeItemId ? 1 : "",
                 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
               >
                 {item.text}
               </motion.p>
-            </motion.div>
+            </div>
           )}
         </div>
       ))}

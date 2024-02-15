@@ -28,7 +28,7 @@ const HomePage = () => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 1000);
   }, []);
 
 

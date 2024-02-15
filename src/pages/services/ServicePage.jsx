@@ -34,7 +34,7 @@ const ServicePage = () => {
             indicator={
               <LoadingOutlined
                 style={{
-                  fontSize: 24,
+                  fontSize: 30,
                 }}
                 spin
               />
