@@ -1,7 +1,19 @@
 import OurServicesBox from "../../../components/items/OurServicesBox";
+import {motion} from "framer-motion"
 import OurServicesItems from "../../../components/items/OurServicesItems";
 
 const ServicesWeOffer = () => {
+  const container = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut", 
+      },
+    },
+  };
   return (
     <div>
       <div className="flex flex-col py-[5rem] sm:justify-center sm:items-center min-h-screen max-w-[1440px] mx-auto px-[1rem] sm:px-[5rem]">
