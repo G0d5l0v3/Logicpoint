@@ -5,9 +5,6 @@ const OurServicesBox = ({ services }) => {
     <div>
       <div
         className="grid lg:grid-cols-4 gap-4 font-[exo]"
-        variants={containerVariants}
-        initial="hidden"
-        animate={"visible"}
       >
         {services.map((service) => (
           <div
