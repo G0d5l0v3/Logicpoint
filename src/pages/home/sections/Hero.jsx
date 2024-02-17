@@ -8,10 +8,6 @@ const lastTwoItems = HeroItems.slice(2);
 
 const Hero = () => {
   const navigate = useNavigate();
-  const handleClick = () => {
-    return navigate("/contact-us");
-  };
-
 
   return (
     <>
@@ -37,7 +33,9 @@ const Hero = () => {
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
-          <Button description="Connect with Us" onClick={handleClick} />
+          <a href="https://3cx.logicpointng.com/meet/logicpointmeetings" target="_blank">
+          <Button description="Connect with Us" />
+          </a>
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:gap-3">
