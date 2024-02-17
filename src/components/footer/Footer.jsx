@@ -67,10 +67,7 @@ const Footer = () => {
               22, Idowu Taylor Street, Victoria Island, Lagos
             </p>
             <p className="text-sm sm:text-md lg:text-md">
-              NG: +234 (1) 888 8185
-            </p>
-            <p className="text-sm sm:text-md lg:text-md">
-              US: +1 (609) 874-9097
+              NG: +234 (201) 330 2905
             </p>
           </div>
         </div>

@@ -3,9 +3,7 @@ import React from "react";
 const OurServicesBox = ({ services }) => {
   return (
     <div>
-      <div
-        className="grid lg:grid-cols-4 gap-4 font-[exo]"
-      >
+      <div className="grid lg:grid-cols-4 gap-4 font-[exo]">
         {services.map((service) => (
           <div
             className="grid bg-[#0a0a1a] text-white shadow-lg rounded-lg h-[20rem] 2xl:h-[25rem] px-[1rem] sm:px-[2rem] pt-[2rem]"
