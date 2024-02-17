@@ -27,10 +27,10 @@ const Footer = () => {
             </NavLink>
 
             <NavLink
-              to="/leadership"
+              to="/contact-us"
               className="text-sm sm:text-md lg:text-md hover:opacity-[0.7]"
             >
-              Leadership
+              Contact Us
             </NavLink>
           </div>
           <div className="flex flex-col gap-3">
