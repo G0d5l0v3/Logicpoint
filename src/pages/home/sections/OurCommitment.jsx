@@ -12,7 +12,7 @@ const OurCommitment = () => {
       <div className="font-[exo] flex flex-col md:flex justify-center pt-[5rem] max-w-[1240px] mx-auto px-[1rem] sm:px-[1rem]">
         <div>
           <motion.h1
-            className="text-white font-semibold text-3xl sm:text-4xl lg:text-5xl text-[#181830]"
+            className="text-white font-semibold text-3xl sm:text-4xl lg:text-5xl"
           >
             <span className="border-b-8 border-[#5D1570] ">Our </span>
             <span>Commitment </span>
