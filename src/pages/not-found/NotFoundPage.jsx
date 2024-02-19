@@ -20,6 +20,7 @@ const NotFoundPage = () => {
     <React.Fragment>
       <motion.div
         className="bg-[#FFFBF6] py-[8rem] min-h-screen w-full"
+        variants={animateEaseIn}
         initial={"hidden"}
         animate={"visible"}
       >
