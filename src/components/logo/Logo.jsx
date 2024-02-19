@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/Logicpoint-Logo.svg";
 
 const Logo = ({ style }) => {
@@ -14,13 +15,15 @@ const Logo = ({ style }) => {
     },
   };
   return (
-    <img
-      src={logo}
-      loading="lazy"
-      decoding="async"
-      alt="company-logo"
-      className={style}
-    />
+    <Link to="/">
+      <img
+        src={logo}
+        loading="lazy"
+        decoding="async"
+        alt="company-logo"
+        className={style}
+      />
+    </Link>
   );
 };
 
