@@ -38,7 +38,7 @@ const WhatWeDo = () => {
             style={image.style}
             alt={image.alt}
             width={600}
-            height={200}
+            height={400}
           />
         </div>
       </div>
