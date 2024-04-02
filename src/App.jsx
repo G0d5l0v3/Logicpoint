@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useState, useEffect } from "react";
+import React, { lazy, Suspense} from "react";
 import { Routes, Route } from "react-router-dom";
 import { ConfigProvider } from "antd";
 import Navbar from "./components/navbar/Navbar";
